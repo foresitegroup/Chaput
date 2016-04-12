@@ -1,15 +1,15 @@
 <ul>
-  <li class="ml"><a href="#">COMPANY</a></li>
+  <li class="ml"><a href="<?php echo $TopDir; ?>#">COMPANY</a></li>
   <li class="ml">
-    <a href="#">SERVICES</a>
+    <a href="<?php echo $TopDir; ?>#">SERVICES</a>
     <ul>
-      <li><a href="#">CONSTRUCTION</a></li>
-      <li><a href="#">DEVELOPMENT</a></li>
-      <li><a href="#">LAND TITLE / LEGAL</a></li>
-      <li><a href="#">OTHER SERVICES</a></li>
+      <li><a href="<?php echo $TopDir; ?>#">CONSTRUCTION</a></li>
+      <li><a href="<?php echo $TopDir; ?>#">DEVELOPMENT</a></li>
+      <li><a href="<?php echo $TopDir; ?>#">LAND TITLE / LEGAL</a></li>
+      <li><a href="<?php echo $TopDir; ?>#">OTHER SERVICES</a></li>
     </ul>
   </li>
-  <li class="ml"><a href="#">NEWS</a></li>
-  <li class="mr"><a href="#">REQUEST SURVEY</a></li>
-  <li class="mr"><a href="#">CONTACT</a></li>
+  <li class="ml"><a href="<?php echo $TopDir; ?>news">NEWS</a></li>
+  <li class="mr"><a href="<?php echo $TopDir; ?>#">REQUEST SURVEY</a></li>
+  <li class="mr"><a href="<?php echo $TopDir; ?>#">CONTACT</a></li>
 </ul>

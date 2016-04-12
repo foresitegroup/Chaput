@@ -139,6 +139,24 @@ TEXTAREA.notfilled:-moz-placeholder { color: #DE2847; } /* FF 4-18 */
 TEXTAREA.notfilled::-moz-placeholder { color: #DE2847; } /* FF 19+ */
 TEXTAREA.notfilled:-ms-input-placeholder { color: #DE2847; } /* IE 10+ */
 
+.video {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+ 
+.video iframe,
+.video object,
+.video embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .one-half {
   float: left;
   width: 48%;
@@ -195,6 +213,8 @@ A#return-to-top:active {
 .cls-header {
   text-align: center;
   line-height: 0.8em;
+  position: relative;
+  z-index: 999;
 }
 
 .cls-header .site-width {
@@ -209,7 +229,6 @@ A#return-to-top:active {
   -webkit-box-shadow: 0 4px 9px 0 rgba(0,0,0,0.65);
   -moz-box-shadow: 0 4px 9px 0 rgba(0,0,0,0.65);
   box-shadow: 0 4px 9px 0 rgba(0,0,0,0.65);
-  z-index: 999;
 }
 
 .cls-header.sticky .site-width {
@@ -334,14 +353,83 @@ A#return-to-top:active {
   color: #BDBDBD;
 }
 
-.rotating {
-  background: #DDDDDD;
+.cycle-slideshow {
   height: 500px;
 }
 
-.rotating-text {
-  text-align: center;
+.cycle-slideshow > DIV {
+  width: 100%;
+  height: 500px;
+  background-position: center top;
+  background-size: cover;
+  -webkit-box-shadow: inset 0 7px 9px -4px rgba(0,0,0,0.65);
+  -moz-box-shadow: inset 0 7px 9px -4px rgba(0,0,0,0.65);
+  box-shadow: inset 0 7px 9px -4px rgba(0,0,0,0.65);
 }
+
+.cycle-slideshow .site-width {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 106.25%;
+  text-shadow: 0 0 17px rgba(0, 0, 0, 0.35);
+}
+
+.cycle-slideshow .site-width H2 {
+  margin: 0 0 0.3em;
+  font-weight: 900;
+  font-size: 377%;
+  line-height: 1em;
+}
+
+.cycle-slideshow .site-width A:link,
+.cycle-slideshow .site-width A:visited {
+  background: #EBEBEB;
+  color: #470707;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 0.5em 2em;
+  margin-top: 4em;
+  display: inline-block;
+  text-shadow: none;
+  -webkit-box-shadow: 0 0 15px 0 rgba(0,0,0,0.5);
+  -moz-box-shadow: 0 0 15px 0 rgba(0,0,0,0.5);
+  box-shadow: 0 0 15px 0 rgba(0,0,0,0.5);
+}
+
+.cycle-slideshow .site-width A:hover,
+.cycle-slideshow .site-width A:active {
+  background: #470707;
+  color: #EBEBEB;
+}
+
+.cycle-pager {
+  position: absolute;
+  top: 50%;
+  right: calc(50% - 530px);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 500;
+}
+
+.cycle-pager SPAN {
+  margin: 0.3em 0;
+  width: 8px;
+  height: 8px; 
+  display: block;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 3px solid #FFFFFF;
+  background: transparent;
+}
+
+.cycle-pager SPAN.cycle-pager-active { background: #BDBDBD; }
 
 .header-banner {
   background: #470707;
@@ -584,6 +672,135 @@ A#return-to-top:active {
   box-shadow: 0 0 15px 0 rgba(0,0,0,0.3);
 }
 
+.blog-index, .blog-single {
+  height: 251px;
+  background-image: url(../images/blog-header.jpg);
+  background-position: center bottom;
+  background-size: cover;
+  color: #FFFFFF;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  -webkit-box-shadow: inset 0 7px 9px -4px rgba(0,0,0,0.65);
+  -moz-box-shadow: inset 0 7px 9px -4px rgba(0,0,0,0.65);
+  box-shadow: inset 0 7px 9px -4px rgba(0,0,0,0.65);
+}
+
+.blog-index {
+  font-size: 262.5%;
+  line-height: 1em;
+}
+
+.blog-single {
+  height: 447px;
+  font-size: 425%;
+  line-height: 1.2em;
+}
+
+.blog-single H5 {
+  font-size: 16px;
+  line-height: 1em;
+  margin: 3em 0 0;
+}
+
+.blog-index .site-width,
+.blog-single .site-width {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.entry-header {
+  padding-top: 6em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #3F0606;
+}
+
+.entry-header H3 {
+  margin: 0 0 0.6em;
+  line-height: 1.1em;
+  font-size: 425%;
+  font-weight: 900;
+}
+
+.entry-header H4 {
+  margin: 0 0 2.5em;
+  font-weight: 900;
+}
+
+.entry-content {
+  text-align: center;
+  font-size: 118.75%;
+  padding-bottom: 5em;
+}
+
+.entry-content.single {
+  padding-top: 4.5em;
+  text-align: left;
+  font-size: 16px;
+}
+
+.entry-content A.readmore:link,
+.entry-content A.readmore:visited {
+  color: #720E1F;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1em;
+  padding: 0.55em 0.75em;
+  border: 4px solid #470914;
+  display: inline-block;
+  margin-top: 3em;
+}
+
+.entry-content A.readmore:hover,
+.entry-content A.readmore:active {
+  color: #333333;
+  border: 4px solid #333333;
+  background: #FFFFFF;
+}
+
+.entry-content .tags-links {
+  font-size: 14px;
+}
+
+.entry-content .navigation {
+  margin-top: 4em;
+}
+
+.entry-content .navigation H2 {
+  display: none;
+}
+
+.entry-content .navigation .nav-links .nav-previous,
+.entry-content .navigation .nav-links .nav-next {
+  float: left;
+  width: 50%;
+}
+
+.entry-content .navigation .nav-links .nav-next {
+  float: right;
+  text-align: right;
+}
+
+.entry-content .navigation .meta-nav {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.entry-content .video {
+  margin: 4em 0;
+}
+
+@media only screen and (max-width: 1086px) {
+  .cycle-pager {
+    right: 0.5%;
+  }
+}
+
 @media only screen and (max-width: 800px) {
   /* Small computer or landscape tablet */
   A#return-to-top:link,
@@ -670,6 +887,10 @@ A#return-to-top:active {
 
   .cls-header .menu-right > UL {
     display: inline-block;
+  }
+
+  .cycle-slideshow .site-width {
+    width: 94%;
   }
 
   .footer-contact .col1,
@@ -838,6 +1059,10 @@ A#return-to-top:active {
     border-top: 1px solid #4C0707;
   }
 
+  .cycle-slideshow .site-width H2 {
+    font-size: 275%;
+  }
+
   .footer-contact .col1 .address,
   .footer-contact .col1 A:link,
   .footer-contact .col1 A:visited {
@@ -875,5 +1100,10 @@ A#return-to-top:active {
 
   .forty-six H3 {
     font-size: 250%;
+  }
+
+  .entry-header H3,
+  .blog-single {
+    font-size: 300%;
   }
 }

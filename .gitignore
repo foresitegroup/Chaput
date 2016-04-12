@@ -1,0 +1,7 @@
+news/*
+!news/wp-content/
+news/wp-content/*
+!news/wp-content/themes/
+news/wp-content/themes/*
+!news/wp-content/themes/chaput
+news/wp-content/themes/chaput/.DS_Store
