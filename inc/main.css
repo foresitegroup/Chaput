@@ -187,6 +187,7 @@ A#return-to-top:visited {
   border-radius: 50%;
   color: #720E1F;
   background: rgba(255,255,255,0.4);
+  z-index: 999;
 }
 
 #return-to-top .fa {
@@ -353,10 +354,6 @@ A#return-to-top:active {
   color: #BDBDBD;
 }
 
-.cycle-slideshow {
-  height: 500px;
-}
-
 .cycle-slideshow > DIV {
   width: 100%;
   height: 500px;
@@ -440,9 +437,69 @@ A#return-to-top:active {
 }
 
 .news-home {
-  background: #470707;
+  background: #3F0606;
   color: #FFFFFF;
-  padding: 1.7em 0;
+  display: flex;
+}
+
+.news-home-left {
+  float: left;
+  width: 50%;
+}
+
+.news-home-right {
+  float: right;
+  width: 50%;
+  display: flex;
+  background-image: url(../images/news-home.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+.news-home-left-content {
+  float: right;
+  width: 500px;
+  padding: 2.2em 37px 2.7em 0;
+  box-sizing: border-box;
+  line-height: 1.9em;
+}
+
+.news-home-left-content H4 {
+  font-weight: 900;
+  line-height: 1em;
+  margin: 0;
+}
+
+.news-home-left-content HR {
+  border-top: 1pt solid #720E1F;
+  margin: 1.5em 0 1.2em;
+}
+
+.news-home-left-content H3 {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 248%;
+  line-height: 1.2em;
+  margin: 0 0 0.5em;
+}
+
+.news-home-left-content A.readmore:link,
+.news-home-left-content A.readmore:visited {
+  color: #FFFFFF;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1em;
+  padding: 0.6em 1.5em;
+  border: 3px solid #EBEBEB;
+  display: inline-block;
+  margin-top: 2.5em;
+}
+
+.news-home-left-content A.readmore:hover,
+.news-home-left-content A.readmore:active {
+  color: #BDBDBD;
+  border: 3px solid #BDBDBD;
 }
 
 .footer-contact {
@@ -675,7 +732,7 @@ A#return-to-top:active {
 .blog-index, .blog-single {
   height: 251px;
   background-image: url(../images/blog-header.jpg);
-  background-position: center bottom;
+  background-position: center center;
   background-size: cover;
   color: #FFFFFF;
   font-weight: 900;
@@ -695,6 +752,11 @@ A#return-to-top:active {
   height: 447px;
   font-size: 425%;
   line-height: 1.2em;
+}
+
+.blog-single .overlay {
+  background: rgba(0, 0, 0, 0.25);
+  height: inherit;
 }
 
 .blog-single H5 {
@@ -837,6 +899,10 @@ A#return-to-top:active {
     left: 0.5em;
   }
 
+  .news-home-left-content {
+    width: 96%;
+  }
+
   .footer-contact .col1 H1 {
     margin-top: 0;
     font-size: 235%;
@@ -891,6 +957,27 @@ A#return-to-top:active {
 
   .cycle-slideshow .site-width {
     width: 94%;
+  }
+  
+  .news-home {
+    display: block;
+  }
+
+  .news-home-left,
+  .news-home-right,
+  .news-home-left-content {
+    float: none;
+    width: 100%;
+  }
+
+  .news-home-right {
+    height: 300px;
+  }
+
+  .news-home-left-content {
+    width: 96%;
+    padding-right: 0;
+    margin: 0 auto;
   }
 
   .footer-contact .col1,
@@ -1001,6 +1088,7 @@ A#return-to-top:active {
     position: absolute;
     top: 169px;
     left: 0;
+    z-index: 999;
   }
 
   .cls-header UL {
@@ -1008,6 +1096,10 @@ A#return-to-top:active {
     text-align: center;
     background: rgba(94,8,8,0.9);
   }
+
+/*  .cls-header .menu-right > UL {
+    display: block;
+  }*/
   
   .cls-header UL LI,
   .cls-header UL LI:first-child {
@@ -1023,20 +1115,29 @@ A#return-to-top:active {
   .cls-header UL LI A:link,
   .cls-header UL LI A:visited,
   .cls-header.sticky UL LI A:link,
-  .cls-header.sticky UL LI A:visited {
+  .cls-header.sticky UL LI A:visited,
+  .cls-header UL LI UL LI A:link,
+  .cls-header UL LI UL LI A:visited,
+  .cls-header.sticky UL LI UL LI A:link,
+  .cls-header.sticky UL LI UL LI A:visited {
+    width: 100%;
     height: auto;
     line-height: 1em;
-    font-size: 200%;
     white-space: nowrap;
-    padding: 0.9em 1em;
+    padding: 0.9em 0;
     box-sizing: border-box;
     color: #FFFFFF;
+    font-size: 200%;
   }
 
   .cls-header UL LI A:hover,
   .cls-header UL LI A:active,
   .cls-header.sticky UL LI A:hover,
-  .cls-header.sticky UL LI A:active {
+  .cls-header.sticky UL LI A:active,
+  .cls-header UL LI UL LI A:hover,
+  .cls-header UL LI UL LI A:active,
+  .cls-header.sticky UL LI UL LI A:hover,
+  .cls-header.sticky UL LI UL LI A:active {
     color: #BDBDBD;
   }
 
@@ -1045,6 +1146,7 @@ A#return-to-top:active {
     position: relative;
     top: 0;
     left: 0;
+    z-index: 999999999;
   }
 
   .cls-header UL LI UL {
@@ -1059,8 +1161,16 @@ A#return-to-top:active {
     border-top: 1px solid #4C0707;
   }
 
+  .cycle-slideshow > DIV {
+    height: 400px;
+  }
+
   .cycle-slideshow .site-width H2 {
-    font-size: 275%;
+    font-size: 230%;
+  }
+
+  .news-home-right {
+    height: 225px;
   }
 
   .footer-contact .col1 .address,

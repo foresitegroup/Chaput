@@ -125,9 +125,29 @@ include "header.php";
 </div>
 
 <div class="news-home">
-  <div class="site-width">
-    BLOG FEATURED (TWO COL FULL WIDTH)
+  <div class="news-home-left">
+    <div class="news-home-left-content">
+      <h4>INDUSTRY NEWS</h4>
+      <hr>
+      <?php
+      require('news/wp-blog-header.php');
+
+      $posts = get_posts('posts_per_page=1&order=DESC&orderby=date');
+      foreach ($posts as $post) :
+        setup_postdata( $post );
+        ?>
+        <h3><?php the_title(); ?></h3>
+        <?php echo excerpt(37); ?><br>
+        <a href="<?php the_permalink() ?>" class="readmore">READ FULL STORY</a>
+      <?php
+      endforeach;
+      ?>
+    </div>
   </div>
+
+  <div class="news-home-right"<?php if (get_post_thumbnail_id() != "") echo ' style="background-image: url(' . wp_get_attachment_url(get_post_thumbnail_id()) . ');"'; ?>></div>
+
+  <div style="clear: both;"></div>
 </div>
 
 <?php include "footer.php"; ?>
