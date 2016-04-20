@@ -13,8 +13,9 @@ if ($_POST['confirmationCAP'] == "") {
   {
     $Subject = $_POST[md5('subject' . $_POST['ip'] . $salt . $_POST['timestamp'])];
     $SendTo = "patmccurdymusic@gmail.com";
-    $From = "From: Contact Form <contactform@chaputlandsurveys.com>\r\n";
-    $From .= "Reply-To: " . $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] . "\r\n";
+    $Headers = "Bcc: mark@foresitegrp.com\r\n";
+    $Headers .= "From: Contact Form <contactform@chaputlandsurveys.com>\r\n";
+    $Headers .= "Reply-To: " . $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] . "\r\n";
 
     $Message = "Message from " . $_POST[md5('name' . $_POST['ip'] . $salt . $_POST['timestamp'])] . " (" . $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] . ")";
 
@@ -24,7 +25,7 @@ if ($_POST['confirmationCAP'] == "") {
 
     $Message = stripslashes($Message);
   
-    mail($SendTo, $Subject, $Message, $From);
+    mail($SendTo, $Subject, $Message, $Headers);
     
     $feedback = "<strong>Your message has been sent!</strong> Thank you for your interest. You will be contacted shortly.";
 

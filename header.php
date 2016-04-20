@@ -47,6 +47,8 @@ if (!isset($TopDir)) $TopDir = "";
   <body>
   
   <a href="#" id="return-to-top"><i class="fa fa-arrow-up"></i></a>
+  
+  <div class="cls-header-spacer"></div>
 
   <div class="cls-header">
     <div class="site-width">

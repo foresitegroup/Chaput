@@ -12,7 +12,7 @@
           Milwaukee, WI 53204
         </div>
 
-        <a href="<?php echo $TopDir; ?>#">REQUEST A SURVEY</a>
+        <a href="<?php echo $TopDir; ?>request-survey.php">REQUEST A SURVEY</a>
       </div>
 
       <div class="col2">

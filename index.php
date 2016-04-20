@@ -14,21 +14,21 @@ include "header.php";
     <div class="site-width">
       <h2>CONSTRUCTION SERVICES</h2>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.<br>
-      <a href="#">LEARN MORE</a>
+      <a href="services.php#construction">LEARN MORE</a>
     </div>
   </div>
   <div style="background-image: url(images/home-slide2.jpg);">
     <div class="site-width">
       <h2>LAND DEVELOPMENT</h2>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.<br>
-      <a href="#">LEARN MORE</a>
+      <a href="services.php#development">LEARN MORE</a>
     </div>
   </div>
   <div style="background-image: url(images/home-slide3.jpg);">
     <div class="site-width">
       <h2>REAL ESTATE DUE DILIGENCE</h2>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.<br>
-      <a href="#">LEARN MORE</a>
+      <a href="services.php#real-estate">LEARN MORE</a>
     </div>
   </div>
 </div>
@@ -90,7 +90,7 @@ include "header.php";
   </div>
 
   <div class="button">
-    <a href="#">ABOUT OUR SERVICES</a>
+    <a href="services.php" class="shadow-button">ABOUT OUR SERVICES</a>
   </div>
 </div>
 
@@ -105,7 +105,7 @@ include "header.php";
     <h3>UAV AERIAL PHOTOGRAPHY</h3>
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum<br>
     <br>
-    <a href="#">LEARN MORE</a>
+    <a href="services.php#other">LEARN MORE</a>
   </div>
 </div>
 
@@ -116,7 +116,7 @@ include "header.php";
     <h3>COMPANY PROFILE</h3>
     Chaput Land Surveys provides professional land surveying services throughout Wisconsin. With our sole focus on surveying, we are able to provide exceptional service with a timely completion. Chaput has a survey staff of 9-10 surveyors including 4 licensed land surveyors. On a daily basis we dispatch 4 survey crews operating as one and two person field crews equipped with the latest technology which includes robotic total stations and survey grade GPS (GNSS) receivers.<br>
     <br>
-    <a href="#">OUR COMPANY</a>
+    <a href="company.php">OUR COMPANY</a>
   </div>
 
   <div class="fifty-four last">
