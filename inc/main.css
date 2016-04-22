@@ -1000,7 +1000,7 @@ A.shadow-button:active {
 
 .services .one-half IMG {
   position: relative;
-  top: 0.8em;
+  top: 0.5em;
 }
 
 .services UL LI {
@@ -1023,6 +1023,46 @@ A.shadow-button:active {
   position: absolute;
   top: 2px;
   right: 0;
+}
+
+.content.projects IMG {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.tile {
+  position: relative;
+  width: 29.166666%;
+  display: inline-block;
+  margin: 3% 4% 0 0;
+}
+
+.tile:before {
+  display: block;
+  content: "";
+  padding-top: 82.857142%;
+}
+
+.tile:first-child,
+.tile:nth-child(2),
+.tile:nth-child(3) {
+  margin-top: 0.4em;
+}
+
+.tile:nth-child(3n) {
+  margin-right: 0;
+}
+
+.tile > .swipebox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 @media only screen and (max-width: 1086px) {
@@ -1087,6 +1127,10 @@ A.shadow-button:active {
 
   .home-services .title {
     font-size: 185%;
+  }
+
+  .one-half H2 {
+    font-size: 270%;
   }
 }
 

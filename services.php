@@ -102,7 +102,7 @@ include "header.php";
   </div>
 
   <div style="clear: both; text-align: center;">
-    <a href="#" class="shadow-button">PROJECTS WE'VE DONE</a>
+    <a href="projects.php" class="shadow-button">PROJECTS WE'VE DONE</a>
   </div>
 </div>
 
