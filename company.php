@@ -35,6 +35,7 @@ include "header.php";
 
 <hr>
 
+<a class="anchor" id="certifications"></a>
 <div class="site-width content">
   <h3>CERTIFICATIONS</h3>
   <ul>

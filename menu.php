@@ -1,5 +1,11 @@
 <ul>
-  <li class="ml"><a href="<?php echo $TopDir; ?>company.php">COMPANY</a></li>
+  <li class="ml">
+    <a href="<?php echo $TopDir; ?>company.php">COMPANY</a>
+    <ul>
+      <li><a href="<?php echo $TopDir; ?>company.php#certifications">CERTFICATIONS &amp; AWARDS</a></li>
+      <li><a href="<?php echo $TopDir; ?>projects.php">PROJECTS</a></li>
+    </ul>
+  </li>
   <li class="ml">
     <a href="<?php echo $TopDir; ?>services.php">SERVICES</a>
     <ul>
