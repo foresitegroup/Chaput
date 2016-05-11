@@ -8,26 +8,26 @@ include "header.php";
 
 <script type="text/javascript" src="inc/jquery.cycle2.min.js"></script>
 <script type="text/javascript" src="inc/jquery.cycle2.scrollVert.min.js"></script>
-<div class="cycle-slideshow" data-cycle-slides="> div" data-cycle-timeout="8000" data-cycle-pause-on-hover="true" data-cycle-fx="scrollVert" data-cycle-pager-template="<span></span>">
+<div class="cycle-slideshow" data-cycle-slides="> div" data-cycle-timeout="5000" data-cycle-pause-on-hover="true" data-cycle-fx="scrollVert" data-cycle-pager-template="<span></span>">
   <p class="cycle-pager"></p>
   <div style="background-image: url(images/home-slide1.jpg);">
     <div class="site-width">
       <h2>CONSTRUCTION SERVICES</h2>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.<br>
+      Chaput Land Surveys is a leader in providing construction layout for site buildings and infrastructure on normal sites to highly complex sites in an accurate and timely manner to keep your project moving.<br>
       <a href="services.php#construction">LEARN MORE</a>
     </div>
   </div>
   <div style="background-image: url(images/home-slide2.jpg);">
     <div class="site-width">
       <h2>LAND DEVELOPMENT</h2>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.<br>
+      Our team can provide the tools and resources needed to develop property from existing conditions to the end product.<br>
       <a href="services.php#development">LEARN MORE</a>
     </div>
   </div>
   <div style="background-image: url(images/home-slide3.jpg);">
     <div class="site-width">
       <h2>REAL ESTATE DUE DILIGENCE</h2>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.<br>
+      As Professional Land Surveyors we can help you identify risks associated with the property prior to purchase that is central to your real estate transaction.<br>
       <a href="services.php#real-estate">LEARN MORE</a>
     </div>
   </div>
@@ -84,8 +84,7 @@ include "header.php";
       <li>Construction Site</li>
       <li>Control Surveys</li>
       <li>As-Built Surveys</li>
-      <li>Easement Legal</li>
-      <li>Descriptions &amp; Exhibits</li>
+      <li>Easement Legal Descriptions &amp; Exhibits</li>
     </ul>
   </div>
 
@@ -102,8 +101,8 @@ include "header.php";
   </div>
 
   <div class="forty-six last">
-    <h3>UAV AERIAL PHOTOGRAPHY</h3>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum<br>
+    <h3>FAA APPROVED UAS AERIAL PHOTOGRAPHY</h3>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit<br>
     <br>
     <a href="services.php#other">LEARN MORE</a>
   </div>

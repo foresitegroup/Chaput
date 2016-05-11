@@ -88,7 +88,7 @@ include "header.php";
   <div class="one-half">
     <h2>OTHER SERVICE AREAS</h2>
     <ul class="ar">
-      <li>UAV - Aerial Photography</li>
+      <li>FAA Approved UAS Aerial Photography</li>
       <li>Municipal</li>
       <li>Retail</li>
       <li>Education</li>

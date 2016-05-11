@@ -194,6 +194,18 @@ A.anchor {
   visibility: hidden;
 }
 
+.long-string {
+  /* Careful, this breaks the word wherever it is without a hyphen */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  /* Adds a hyphen where the word breaks */
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+
 .video {
   position: relative;
   padding-bottom: 56.25%;
@@ -1065,6 +1077,27 @@ A.shadow-button:active {
   background-repeat: no-repeat;
 }
 
+.projects HR {
+  margin: 5em 0;
+  border-top-color: #CCCCCC;
+}
+
+.projects .one-third {
+  font-size: 87.5%;
+  line-height: 1.3em;
+}
+
+.projects .one-third H3 {
+  font-size: 221.42%;
+  color: #3E0606;
+  text-decoration: underline;
+  margin-bottom: 1em;
+}
+
+.projects .one-third STRONG {
+  font-size: 114.28%;
+}
+
 @media only screen and (max-width: 1086px) {
   .cycle-pager {
     right: 0.5%;
@@ -1286,6 +1319,14 @@ A.shadow-button:active {
 
   .services .ar LI:after {
     content: "";
+  }
+
+  .projects .one-third {
+    margin-bottom: 4em;
+  }
+
+  .projects .one-third.last {
+    margin-bottom: 0;
   }
 }
 
