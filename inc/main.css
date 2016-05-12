@@ -1037,54 +1037,47 @@ A.shadow-button:active {
   right: 0;
 }
 
-.content.projects IMG {
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
+.project-header.one-half {
+  color: #A1A1A1;
+  font-size: 87.5%;
+  text-align: left;
+  padding: 3em 0 4em;
 }
 
-.tile {
-  position: relative;
-  width: 29.166666%;
-  display: inline-block;
-  margin: 3% 4% 0 0;
+.project-header HR {
+  border-top: 0; /* the border */
+  border-bottom: 5px solid #470707; /* the border */
+  height: 5px; /* whatever the total width of the border-top and border-bottom equal */
+  width: 50px;
+  text-align: left;
+  margin-left: 0;
 }
 
-.tile:before {
-  display: block;
-  content: "";
-  padding-top: 82.857142%;
+.projects H2 {
+  font-size: 275%;
+  color: #3E0606;
 }
 
-.tile:first-child,
-.tile:nth-child(2),
-.tile:nth-child(3) {
-  margin-top: 0.4em;
+.projects IMG {
+  max-width: 100%;
+  height: auto;
 }
 
-.tile:nth-child(3n) {
-  margin-right: 0;
-}
-
-.tile > .swipebox {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.projects HR {
-  margin: 5em 0;
+.projects-hr {
+  margin: 5em 0 5.5em;
   border-top-color: #CCCCCC;
+}
+
+.projects-button {
+  clear: both;
+  text-align: center;
+  padding-top: 5em;
 }
 
 .projects .one-third {
   font-size: 87.5%;
   line-height: 1.3em;
+  margin-bottom: 8em;
 }
 
 .projects .one-third H3 {
@@ -1321,12 +1314,18 @@ A.shadow-button:active {
     content: "";
   }
 
+  .project-header.one-half,
+  .project-header.one-half.last {
+    float: left;
+    width: 50%;
+  }
+
   .projects .one-third {
     margin-bottom: 4em;
   }
 
   .projects .one-third.last {
-    margin-bottom: 0;
+    margin-bottom: 8em;
   }
 }
 
