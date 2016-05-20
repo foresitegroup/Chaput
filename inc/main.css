@@ -330,6 +330,11 @@ A#return-to-top:active {
   padding: 26px 0 19px;
 }
 
+.cls-header .site-width IMG {
+  height: 76px;
+  width: auto;
+}
+
 .cls-header.sticky {
   position: fixed;
   top: 0;
@@ -1405,7 +1410,7 @@ A.shadow-button:active {
   .cls-header .site-width IMG,
   .cls-header.sticky .site-width IMG {
     height: auto;
-    width: auto;
+    width: 80%;
   }
 
   #menu-toggle {
