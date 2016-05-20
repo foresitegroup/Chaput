@@ -43,7 +43,7 @@ include "header.php";
   <div class="one-third">
     <div class="title">REAL ESTATE DUE DILIGENCE</div>
 
-    <img src="images/services-real-estate.jpg" alt="">
+    <img src="images/services-home-real-estate.jpg" alt="">
 
     <ul>
       <li>ALTA/NSPS Land Title Surveys</li>
@@ -61,7 +61,7 @@ include "header.php";
   <div class="one-third">
     <div class="title">DEVELOPMENT</div>
 
-    <img src="images/services-development.jpg" alt="">
+    <img src="images/services-real-estate.jpg" alt="">
 
     <ul>
       <li>ALTA/NSPS Land Title Surveys</li>
