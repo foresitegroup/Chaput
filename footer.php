@@ -1,8 +1,9 @@
+  <?php if ($FooterForm != "no") { ?>
   <div class="footer-contact">
     <div class="site-width">
       <div class="col1">
         <h1>CONTACT US</h1>
-        We are available to answer any surveying questions you may have. Please call us or fill out the given form at your convenience.
+        We are available to answer any surveying questions you may have. To request a survey, please call us or fill out the given form at your convenience.
 
         <h2>414-224-8068</h2>
 
@@ -11,8 +12,6 @@
           234 W. Florida Street<br>
           Milwaukee, WI 53204
         </div>
-
-        <a href="<?php echo $TopDir; ?>request-survey.php">REQUEST A SURVEY</a>
       </div>
 
       <div class="col2">
@@ -113,6 +112,7 @@
       </div>
     </div>
   </div>
+  <?php } ?>
 
   <div class="footer-menu">
     <?php include "menu.php"; ?>

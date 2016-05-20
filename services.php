@@ -22,7 +22,7 @@ include "header.php";
   </div>
 
   <div style="clear: both;"></div>
-  
+
   <a class="anchor" id="real-estate"></a>
   <div class="one-half">
     <img src="images/services-real-estate.jpg" alt="">
@@ -30,6 +30,10 @@ include "header.php";
 
   <div class="one-half last">
     <h2>REAL ESTATE DUE DILIGENCE</h2>
+
+    As Professional Land Surveyors we can help you identify risks associated with the property prior to purchase that is central to your real estate transaction.<br>
+    <br>
+
     <ul>
       <li>ALTA/NSPS Land Title Surveys</li>
       <li>Topographic Surveys</li>
@@ -44,11 +48,19 @@ include "header.php";
   </div>
 
   <div style="clear: both;"></div>
-  
+
   <a class="anchor" id="development"></a>
   <div class="one-half">
+    <img src="images/services-development.jpg" alt="">
+  </div>
+
+  <div class="one-half last">
     <h2>DEVELOPMENT</h2>
-    <ul class="ar">
+
+    Our team can provide the tools and resources needed to develop property from existing conditions to the end product.<br>
+    <br>
+
+    <ul>
       <li>ALTA/NSPS Land Title Surveys</li>
       <li>Topographic Surveys</li>
       <li>Flood Hazard Surveys</li>
@@ -59,19 +71,19 @@ include "header.php";
     </ul>
   </div>
 
-  <div class="one-half last">
-    <img src="images/services-development.jpg" alt="">
-  </div>
-
   <div style="clear: both;"></div>
-  
+
   <a class="anchor" id="construction"></a>
   <div class="one-half">
     <img src="images/services-construction.jpg" alt="">
   </div>
 
   <div class="one-half last">
-    <h2>CONSTRUCTION</h2>
+    <h2>CONSTRUCTION SERVICES</h2>
+
+    Chaput Land Surveys is a leader in providing construction layout for site buildings and infrastructure on normal sites to highly complex sites in an accurate and timely manner to keep your project moving.<br>
+    <br>
+
     <ul>
       <li>Construction Layout</li>
       <li>Construction Site</li>
@@ -83,22 +95,29 @@ include "header.php";
   </div>
 
   <div style="clear: both;"></div>
-  
+
   <a class="anchor" id="other"></a>
   <div class="one-half">
-    <h2>OTHER SERVICE AREAS</h2>
-    <ul class="ar">
+    <img src="images/services-other.jpg" alt="">
+  </div>
+
+  <div class="one-half last">
+    <h2>OTHER AREAS OF SERVICE</h2>
+
+    Chaput Land Surveys offers a variety of service areas such as aerial photography, terrestrial remotes sensing and photogrammetry. We are authorized to fly up to 400 feet.<br>
+    <br>
+
+    <ul>
       <li>FAA Approved UAS Aerial Photography</li>
       <li>Municipal</li>
       <li>Retail</li>
       <li>Education</li>
       <li>Healthcare</li>
       <li>Industrial</li>
+      <li>Hydrographic Surveys</li>
+      <li>Remote Sensing</li>
+      <li>Photogrammetry</li>
     </ul>
-  </div>
-
-  <div class="one-half last">
-    <img src="images/services-other.jpg" alt="">
   </div>
 
   <div style="clear: both; text-align: center;">

@@ -240,8 +240,15 @@ A.anchor {
   margin-right: 3.5%;
 }
 
+.one-fourth {
+  float: left;
+  width: 22%;
+  margin-right: 4%;
+}
+
 .one-half.last,
-.one-third.last {
+.one-third.last,
+.one-fourth.last {
   margin-right: 0;
 }
 
@@ -362,7 +369,8 @@ A#return-to-top:active {
 }
 
 .cls-header .menu-left .mr,
-.cls-header .menu-right .ml {
+.cls-header .menu-right .ml,
+.cls-header .footer-only {
   display: none;
 }
 
@@ -375,7 +383,7 @@ A#return-to-top:active {
 
 .cls-header UL LI {
   float: left;
-  padding-left: 2em;
+  padding-left: 4em;
   position: relative;
   z-index: 99;
 }
@@ -453,6 +461,10 @@ A#return-to-top:active {
 .cls-header.sticky UL LI UL LI A:hover,
 .cls-header.sticky UL LI UL LI A:active {
   color: #BDBDBD;
+}
+
+.cycle-slideshow {
+  overflow: hidden;
 }
 
 .cycle-slideshow > DIV {
@@ -648,8 +660,8 @@ A#return-to-top:active {
   font-weight: 600;
 }
 
-.footer-contact .col1 A:link,
-.footer-contact .col1 A:visited {
+.footer-contact .col1 A.survey-button:link,
+.footer-contact .col1 A.survey-button:visited {
   color: #720E1F;
   font-family: 'Titillium Web', sans-serif;
   font-weight: 700;
@@ -660,8 +672,8 @@ A#return-to-top:active {
   display: inline-block;
 }
 
-.footer-contact .col1 A:hover,
-.footer-contact .col1 A:active {
+.footer-contact .col1 A.survey-button:hover,
+.footer-contact .col1 A.survey-button:active {
   color: #333333;
   border: 4px solid #333333;
   background: #FFFFFF;
@@ -988,7 +1000,6 @@ A.shadow-button:active {
 .services .service-header.one-half {
   color: #A1A1A1;
   font-size: 87.5%;
-  text-align: left;
   margin-bottom: 3em;
 }
 
@@ -1002,12 +1013,12 @@ A.shadow-button:active {
 }
 
 .services .one-half {
-  text-align: right;
   margin-bottom: 5em;
 }
 
 .services .one-half.last {
-  text-align: left;
+  font-size: 93.75%;
+  line-height: 1.4em;
 }
 
 .services .one-half IMG {
@@ -1015,9 +1026,17 @@ A.shadow-button:active {
   top: 0.5em;
 }
 
+.services .one-half.last H2 {
+  color: #3E0606;
+  font-size: 400%;
+}
+
 .services UL LI {
-  padding: 0 0 0.2em 0;
-  font-size: 125%;
+  padding: 0 0 0.5em 0;
+  font-size: 133.33%;
+  font-weight: bold;
+  line-height: 1.3em;
+  color: #470707;
 }
 
 .ar {
@@ -1091,6 +1110,28 @@ A.shadow-button:active {
   font-size: 114.28%;
 }
 
+.survey-top {
+  text-align: center;
+  font-size: 112.5%;
+  padding: 2.7em 0;
+}
+
+.survey-top H2 {
+  font-size: 400%;
+}
+
+.survey-hr {
+  border-top-color: #CCCCCC;
+}
+
+.survey-emails {
+  padding: 3.6em 0;
+}
+
+.survey-wrap {
+  background: #F1F2F2;
+}
+
 @media only screen and (max-width: 1086px) {
   .cycle-pager {
     right: 0.5%;
@@ -1118,12 +1159,7 @@ A.shadow-button:active {
     width: auto;
   }
 
-  .cls-header UL LI {
-    padding-left: 1.5em;
-  }
-
   .cls-header UL LI A:link, .cls-header UL LI A:visited {
-    font-size: 106.25%;
     height: 75px;
     line-height: 75px;
   }
@@ -1157,6 +1193,23 @@ A.shadow-button:active {
 
   .one-half H2 {
     font-size: 270%;
+  }
+
+  .services .one-half.last H2 {
+    font-size: 310%;
+  }
+
+  .survey-emails {
+    padding: 2.6em 0;
+  }
+
+  .survey-emails .one-fourth {
+    width: 48%;
+    padding: 1em 0;
+  }
+
+  .survey-emails .one-fourth:nth-child(2) {
+    margin-right: 0;
   }
 }
 
@@ -1300,6 +1353,10 @@ A.shadow-button:active {
     float: left;
     width: 50%;
     margin-bottom: 3em;
+  }
+
+  .services .one-half.last H2 {
+    font-size: 400%;
   }
   
   .services .ar {
@@ -1491,12 +1548,9 @@ A.shadow-button:active {
     padding-top: 1em;
   }
 
-  .footer-menu UL > LI.mr {
-    padding-left: 0;
-  }
-
-  .footer-menu UL > LI.mr ~ LI.mr {
-    padding-left: 2em;
+  .footer-menu UL LI,
+  .footer-menu UL LI:first-child {
+    padding: 0 1em;
   }
 
   .cls-footer SPAN {
@@ -1510,5 +1564,26 @@ A.shadow-button:active {
   .entry-header H3,
   .blog-single {
     font-size: 300%;
+  }
+
+  .services .one-half.last H2 {
+    font-size: 260%;
+  }
+
+  .survey-top H2 {
+    font-size: 250%;
+  }
+
+  .survey-top SPAN {
+    display: block;
+    visibility: hidden;
+    height: 0;
+  }
+
+  .survey-emails .one-fourth,
+  .survey-emails .one-fourth:nth-child(2) {
+    float: none;
+    width: 100%;
+    margin: 0;
   }
 }

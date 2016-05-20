@@ -39,16 +39,16 @@ include "header.php";
 <hr class="projects-hr">
 
 <div class="site-width projects">
-  <h2>ALOFT HOTEL</h2>
-  <strong>PARK EAST CORRIDOR, MILWAUKEE, WI -</strong> Chaput Land Surveys prepared an ALTA/NSPS Land Title Survey to help the client identify easements, terms, restrictions, agreements that encumber the property, access to the property, utilities that service the property, zoning information, parking requirements, encroachments and FEMA floodplain information. A survey project like this helps a client secure a purchase or refinance and helps a lender identify risk  as part of their due diligence of financing a property.<br>
+  <h2>NORTHEND REDEVELOPMENT</h2>
+  <strong>MILWAUKEE, WI -</strong> The North End Redevelopment project has transformed the North Water Street landscape from the vacant Pfister &amp; Vogel tannery buildings into a 4 phase development of apartments, commercial spaces and a grocery store. Chaput Land Surveys has helped the Mandel Group by providing our due diligence and land development services. We have prepared ATLA/NSPS Land Title Surveys for different transactions throughout the project, as well as topographic maps of the sites, river wall locations and existing utility layout to help in the civil design of the buildings and riverwalk project. Chaput has also provided Certified Survey Maps and Condominium Plats.<br>
   <br>
 
   <div class="one-half">
-    <img src="images/projects-aloft.jpg" alt="">
+    <img src="images/projects-northend.jpg" alt="">
   </div>
 
   <div class="one-half last">
-    <img src="images/projects-aloft-logo.jpg" alt="">
+    <img src="images/projects-northend-tank.jpg" alt="">
   </div>
 </div>
 
@@ -81,16 +81,16 @@ include "header.php";
 <hr class="projects-hr">
 
 <div class="site-width projects">
-  <h2>NORTHEND REDEVELOPMENT</h2>
-  <strong>MILWAUKEE, WI -</strong> The North End Redevelopment project has transformed the North Water Street landscape from the vacant Pfister &amp; Vogel tannery buildings into a 4 phase development of apartments, commercial spaces and a grocery store. Chaput Land Surveys has helped the Mandel Group by providing our due diligence and land development services. We have prepared ATLA/NSPS Land Title Surveys for different transactions throughout the project, as well as topographic maps of the sites, river wall locations and existing utility layout to help in the civil design of the buildings and riverwalk project. Chaput has also provided Certified Survey Maps and Condominium Plats.<br>
+  <h2>ALOFT HOTEL</h2>
+  <strong>PARK EAST CORRIDOR, MILWAUKEE, WI -</strong> Chaput Land Surveys prepared an ALTA/NSPS Land Title Survey to help the client identify easements, terms, restrictions, agreements that encumber the property, access to the property, utilities that service the property, zoning information, parking requirements, encroachments and FEMA floodplain information. A survey project like this helps a client secure a purchase or refinance and helps a lender identify risk  as part of their due diligence of financing a property.<br>
   <br>
 
   <div class="one-half">
-    <img src="images/projects-northend.jpg" alt="">
+    <img src="images/projects-aloft.jpg" alt="">
   </div>
 
   <div class="one-half last">
-    <img src="images/projects-northend-tank.jpg" alt="">
+    <img src="images/projects-aloft-logo.jpg" alt="">
   </div>
 </div>
 
@@ -118,8 +118,8 @@ include "header.php";
   <div class="one-third">
     <h3>DUE DILIGENCE</h3>
 
-    <strong>FORD DEALERSHIP</strong><br>
-    THEINSVILLE, WI<br>
+    <strong>MANDEL NORTH END PROJECT</strong><br>
+    MILWAUKEE, WI<br>
     <br>
 
     <strong>ULINE</strong><br>
@@ -182,8 +182,8 @@ include "header.php";
     MILWAUKEE, WI<br>
     <br>
 
-    <strong>MANDEL NORTH END PROJECT</strong><br>
-    MILWAUKEE, WI
+    <strong>FORD DEALERSHIP</strong><br>
+    THEINSVILLE, WI
   </div>
 
   <div class="one-third">

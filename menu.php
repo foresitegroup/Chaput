@@ -15,7 +15,7 @@
       <li><a href="<?php echo $TopDir; ?>services.php#other">OTHER SERVICES</a></li>
     </ul>
   </li>
-  <li class="ml"><a href="<?php echo $TopDir; ?>news">NEWS</a></li>
-  <li class="mr"><a href="<?php echo $TopDir; ?>request-survey.php">REQUEST SURVEY</a></li>
-  <li class="mr"><a href="<?php echo $TopDir; ?>request-survey.php#contact-form">CONTACT</a></li>
+  <li class="mr footer-only"><a href="<?php echo $TopDir; ?>projects.php">PROJECTS</a></li>
+  <li class="mr"><a href="<?php echo $TopDir; ?>news">NEWS</a></li>
+  <li class="mr"><a href="<?php echo $TopDir; ?>contact.php">CONTACT</a></li>
 </ul>

@@ -10,27 +10,28 @@ include "header.php";
   <div class="site-width">
     <h2>CHAPUT COMPANY PROFILE</h2>
 
-    Chaput Land Surveys provides professional land surveying services throughout Wisconsin. With our sole focus on surveying, we are able to provide exceptional service with a timely completion. Chaput has a survey staff of 9-10 surveyors including 4 licensed land surveyors. On a daily basis we dispatch 4 survey crews operating as one and two person field crews equipped with the latest technology which includes robotic total stations and survey grade GPS (GNSS) receivers.
+    At Chaput Land Surveys clients are our first priority, we are driven to helping you be successful. We believe a Land Survey is essential for determining land value, assessing risk and protecting your real estate investment. As such, we provide professional land surveying services throughout Wisconsin. With our sole focus on surveying, we are able to provide exceptional service with a timely completion whether your project is single site improvement, multiple site acquisition, land development or construction. We bring extensive experience, practical judgment and technical expertise to deliver thorough, cost effective and relevant survey solutions for your real estate assets.<br>
+    <br>
+
+    Our multiple survey crews operate as one and two person field crews equipped with the latest technology which includes robotic total stations, survey grade GPS (GNSS) receivers, remote sensing and photogrammetric equipment.
   </div>
 </div>
 
 <div class="site-width content">
   <strong>Donald C. Chaput</strong>, PLS, principal owner of Chaput Land Surveys has more than 40 years of surveying experience relating to property acquisition, land development, transportation and construction. Don has authored articles on ALTA/ACSM Land Title Surveys, spatial survey technology and construction layout risk avoidance. He has been a presenter at seminars to law firms and development firms on the subject of Land Title Surveys. Don is licensed in Wisconsin and Colorado (inactive) and is a member of the professional organizations; Wisconsin Society of Land Surveyors, National Society of Professional Surveyors, Southeast Chapter of WSLS and Society of Southeastern Wisconsin Land Surveyors.<br>
+  <?php email("don@chaputlandsurveys.com"); ?><br>
   <br>
 
   <strong>Allen J. Schneider</strong>, PLS, Senior Project manager oversees daily operations including the site development and construction surveying market segment for Chaput.  Al has 30 years experience in all types of land surveying and civil engineering. Al is licensed in Wisconsin and Illinois and is a member of professional organizations; Wisconsin Society of Land Surveyors (Fellow and Past President), National Society of Professional Surveyors, Society of Southeastern Wisconsin Land Surveyors (Past President) and Foundation Board Director of the WSLS Foundation.<br>
+  <?php email("al@chaputlandsurveys.com"); ?><br>
   <br>
 
   <strong>Daniel E. Bednar</strong>, PLS, Project manager and IT has more than 14 years of surveying experience in the public and private sector relating to property acquisition, land development, planning, construction and GIS management of municipal maps of multiple governmental functions. Dan has also worked closely with developers on their residential projects from acquisition surveys to subdivision plats to house stake-out surveys. Dan is licensed in Wisconsin and is a member of professional organizations; Wisconsin Society of Land Surveyors, National Society of Professional Surveyors, Society of Southeastern Wisconsin Land Surveyors (Past President) and is a citizen member of the Village of Brown Deer Plan Commission.<br>
+  <?php email("dan@chaputlandsurveys.com"); ?><br>
   <br>
 
   <strong>Gregory R. Boyle</strong>, PLS, Project Surveyor has more than 26 years of surveying experience in the field and office of private and public sector projects, relating to property acquisition to construction. Greg oversees the drafting standards and data management of the office and works closely with contractors for construction layout. Greg is licensed in Wisconsin and is a member of professional organizations; Wisconsin Society of Land Surveyors and National Society of Professional Surveyors.<br>
-  <br>
-
-  <strong>Carl Chaput</strong>, Crew Chief has more than 36 years of surveying experience in the field for both private and public sector projects including WIDOT highway reconstruction, topographic surveys, construction layout, utility mapping and property boundary surveys. Carl is a member of the professional organizations; Wisconsin Society of Land Surveyors, National Society of Professional Surveyors and the Southeast Chapter of WSLS.<br>
-  <br>
-
-  <strong>David Earl</strong>, Crew Chief, Survey Technician has 4 years of experience in the public and private sector in both the field and office including ALTA/NSPS Land Surveys, topographic surveys, subdivision plats, construction layout, utility mapping and certified survey maps. Prior to joining Chaput Land Surveys, Dave worked on the Skaneateles Lake Watershed Agriculture Program and graduated from Ferris State.
+  <?php email("greg@chaputlandsurveys.com"); ?>
 </div>
 
 <hr>
