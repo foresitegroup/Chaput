@@ -108,7 +108,7 @@ include "header.php";
     <br>
 
     <ul>
-      <li>FAA Approved UAS Aerial Photography</li>
+      <li>FAA Approved UAS (Unmanned Aerial System) - Aerial Photography</li>
       <li>Municipal</li>
       <li>Retail</li>
       <li>Education</li>

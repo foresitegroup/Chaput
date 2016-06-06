@@ -8,7 +8,7 @@ include "header.php";
 
 <div class="redband">
   <div class="site-width centered" style="font-size: larger;">
-    Chaput Land Surveys' project experience includes large design and development undertakings to major commercial and industrial projects. Some of Chaput's projects are listed below:
+    Chaput Land Surveys' project experience includes large design and development undertakings to major commercial and industrial projects. Featured projects include:
   </div>
 </div>
 
@@ -24,7 +24,7 @@ include "header.php";
   <div style="clear: both;"></div>
 
   <h2>AMAZON FULFILLMENT AND SORTATION CENTER</h2>
-  <strong>KENOSHA, WI -</strong> The Amazon Fulfillment and Sortation Centers are 1 million square foot and 500 thousand square foot buildings located along I-94 at Burlington Road. Chaput Land Surveys prepared an ALTA/NSPS Land Title Survey for the due diligence  phase of the site development. Chaput also prepared a Topographic Survey for the civil engineers to create the construction plans for the project. The ALTA/NSPS survey shows the property boundaries, easements and other encumberances on the property such as access to the property, utilities that service the property, zoning information, FEMA floodplain information, etc. Chaput also prepared 2 Certified Survey Maps (CSM) to redivide 7 parcels into 2 parcels for the project. The land development process also is used to create easements for the utilities and stormwater management areas. Chaput also prepared control exhibits to help contractors using GPS machine control for grading. Our construction services were used for grading ponds, setting building corners and columns, installing sanitary sewer, watermain and fire protection, storm sewer systems, light poles, pumphouses, floodplain protection, curb, signs, and retaining walls. Chaput also prepared as-built record drawings for the ponds, anchor bolt elevations and conveyor system. Once the project was completed Chaput prepared ALTA/NSPS Land Title Survey of the property and finished features of the project for refinancing after construction. The project was challenging, however, having good in house data management and communication with contractors it was a successful project.<br>
+  <strong>KENOSHA, WI -</strong> The Amazon Fulfillment and Sortation Centers are 1 million square foot and 500 thousand square foot buildings located along I-94 at Burlington Road. Chaput Land Surveys prepared an ALTA/NSPS Land Title Survey for the due diligence  phase of the site development. Chaput also prepared a Topographic Survey basemap used to develop the construction plans for the project. The ALTA/NSPS survey shows the property boundaries, easements and other encumberances on the property such as access to the property, utilities that service the property, zoning information, FEMA floodplain information, etc. Chaput also prepared 2 Certified Survey Maps (CSM) to redivide 7 parcels into 2 parcels for the project. The land development process also is used to create easements for the utilities and stormwater management areas. Chaput also prepared control exhibits to assist contractors using GPS machine control for grading. Our construction services were used for grading ponds, setting building corners and columns, installing sanitary sewer, watermain and fire protection, storm sewer systems, light poles, pumphouses, floodplain protection, curb, signs, and retaining walls. Chaput also prepared as-built record drawings for the ponds, anchor bolt elevations and conveyor system. Once the project was completed Chaput prepared ALTA/NSPS Land Title Survey of the property and finished features of the project for refinancing after construction. The challenging project required good in house data management and communication with contractors making it a successful project completed on time.<br>
   <br>
 
   <div class="one-half">
@@ -40,7 +40,7 @@ include "header.php";
 
 <div class="site-width projects">
   <h2>NORTHEND REDEVELOPMENT</h2>
-  <strong>MILWAUKEE, WI -</strong> The North End Redevelopment project has transformed the North Water Street landscape from the vacant Pfister &amp; Vogel tannery buildings into a 4 phase development of apartments, commercial spaces and a grocery store. Chaput Land Surveys has helped the Mandel Group by providing our due diligence and land development services. We have prepared ATLA/NSPS Land Title Surveys for different transactions throughout the project, as well as topographic maps of the sites, river wall locations and existing utility layout to help in the civil design of the buildings and riverwalk project. Chaput has also provided Certified Survey Maps and Condominium Plats.<br>
+  <strong>MILWAUKEE, WI -</strong> The North End Redevelopment project has transformed the North Water Street landscape from the vacant Pfister &amp; Vogel tannery buildings into a 4 phase development of apartments, commercial spaces and a grocery store. Chaput Land Surveys provided the Mandel Group due diligence and land development services. We have prepared ATLA/NSPS Land Title Surveys for different transactions throughout the project, as well as topographic maps of the sites, river wall locations and existing utility layout to help in the civil design of the buildings and riverwalk project. Chaput also provided Certified Survey Maps and Condominium Plats.<br>
   <br>
 
   <div class="one-half">
@@ -56,7 +56,7 @@ include "header.php";
 
 <div class="site-width projects">
   <h2>MEQUON TOWN CENTER</h2>
-  <strong>MEQUON, WI -</strong> Mequon Town Center at the intersection of Mequon Road and Cedarburg Road is a multi purpose development of apartments, shops and restaurants. Chaput Land Surveys was contracted for construction services for this project. This project had the challenge of a tight work site with many different construction trades working on different aspects of this project. Our staff laid out the buildings for the contractor, along with the building corners, columns were staked as well as the elevator shaft. Next we laid out the sanitary sewer, watermain and storm sewer systems and finally the curb, parking lot and sidewalk.<br>
+  <strong>MEQUON, WI -</strong> Mequon Town Center at the intersection of Mequon Road and Cedarburg Road is a multi purpose development of apartments, shops and restaurants. Chaput Land Surveys provided construction surveying services for this project. This project's challenges included a tight work site with many different construction trades working on different aspects of this project during the same time period. Our staff laid out the building locations for the contractor, including the building corners, columns and the elevator shaft. We laid out the sanitary sewer, watermain and storm sewer systems and the curb, parking lot and sidewalk.<br>
   <br>
 
   <div class="one-half">
@@ -72,7 +72,7 @@ include "header.php";
 
 <div class="site-width projects">
   <h2>WHITESTONE STATION</h2>
-  <strong>MENOMONEE FALLS, WI -</strong> Whitestone Station is a mixed-use development located along Falls Parkway, north of Roosevelt Drive. Chaput Land Surveys has been a part of this development from the land division process to the construction phase.  Chaput has provided CSMs, legal descriptions, foundation certifications, monitoring services, building layout, utility infrastructure layout as well as asbuilt surveys.<br>
+  <strong>MENOMONEE FALLS, WI -</strong> Whitestone Station is a mixed-use development located along Falls Parkway, north of Roosevelt Drive. Chaput Land Surveys has been a part of this development from the land division process to the construction phase.  Chaput has provided Certified Survey Maps, legal descriptions, foundation certifications, monitoring services, building layout, utility infrastructure layout as well as asbuilt surveys.<br>
   <br>
 
   <img src="images/projects-whitestone.jpg" alt="">
@@ -82,7 +82,7 @@ include "header.php";
 
 <div class="site-width projects">
   <h2>ALOFT HOTEL</h2>
-  <strong>PARK EAST CORRIDOR, MILWAUKEE, WI -</strong> Chaput Land Surveys prepared an ALTA/NSPS Land Title Survey to help the client identify easements, terms, restrictions, agreements that encumber the property, access to the property, utilities that service the property, zoning information, parking requirements, encroachments and FEMA floodplain information. A survey project like this helps a client secure a purchase or refinance and helps a lender identify risk  as part of their due diligence of financing a property.<br>
+  <strong>PARK EAST CORRIDOR, MILWAUKEE, WI -</strong> Chaput Land Surveys prepared an ALTA/NSPS Land Title Survey to help the client identify encumberances such as easements, restrictions, agreements, access to the property, utilities that service the property, zoning information, parking requirements, encroachments and FEMA floodplain risks. This survey project helped secure financing and identified lender risk  as part of the financing due diligence.<br>
   <br>
 
   <div class="one-half">
@@ -97,8 +97,8 @@ include "header.php";
 <hr class="projects-hr">
 
 <div class="site-width projects">
-  <h2>FORMER CONSOLIDATED WATER POWER AND PAPER COMPANY DAM</h2>
-  <strong>STEVENS POINT, WHITING, BIRON, WISCONSIN RAPIDS -</strong> Established in the early 1900s the paper mill and dam the mill has produced specialty papers and the dam helps provide power for the mill and community. Chaput Land Surveys has produced ALTA/NSPS Land Title Surveys and CSMs for both the mill and dam. Chaput has also prepared numerous legal descriptions for the transmission line network from Stevens Point to Whitting to Biron and Wisconsin Rapids.<br>
+  <h2>FORMER CONSOLIDATED WATER POWER AND PAPER COMPANY DAM AND PROPERTIES</h2>
+  <strong>STEVENS POINT, WHITING, BIRON, WISCONSIN RAPIDS -</strong> Established in the early 1900's the paper mills produced specialty papers and other paper products. The hydro-electric dam provides power for the mills and community. Chaput Land Surveys coordinated and produced ALTA/NSPS Land Title Surveys and Certified Survey Maps for more than 35,000 acres of land and more than 40 miles of electric power transmission lines. The survey project included 5 hydro-electric dams and paper mill facilities. Chaput has prepared numerous legal descriptions for the transmission line network from Stevens Point to Whitting to Biron and Wisconsin Rapids.<br>
   <br>
 
   <div class="one-half">

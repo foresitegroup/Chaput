@@ -13,15 +13,8 @@ include "header.php";
   <div style="background-image: url(images/home-slide3.jpg);">
     <div class="site-width">
       <h2>REAL ESTATE DUE DILIGENCE</h2>
-      As Professional Land Surveyors we can help you identify risks associated with the property prior to purchase that is central to your real estate transaction.<br>
+      As Professional Land Surveyors we help you identify risks associated with property prior to purchase which is central to your real estate transaction and protecting your investment.<br>
       <a href="services.php#real-estate">LEARN MORE</a>
-    </div>
-  </div>
-  <div style="background-image: url(images/home-slide1.jpg);">
-    <div class="site-width">
-      <h2>CONSTRUCTION SERVICES</h2>
-      Chaput Land Surveys is a leader in providing construction layout for site buildings and infrastructure on normal sites to highly complex sites in an accurate and timely manner to keep your project moving.<br>
-      <a href="services.php#construction">LEARN MORE</a>
     </div>
   </div>
   <div style="background-image: url(images/home-slide2.jpg);">
@@ -29,6 +22,13 @@ include "header.php";
       <h2>LAND DEVELOPMENT</h2>
       Our team can provide the tools and resources needed to develop property from existing conditions to the end product.<br>
       <a href="services.php#development">LEARN MORE</a>
+    </div>
+  </div>
+  <div style="background-image: url(images/home-slide1.jpg);">
+    <div class="site-width">
+      <h2>CONSTRUCTION SERVICES</h2>
+      Chaput Land Surveys is a leader in providing construction layout for site buildings and infrastructure from small sites to highly complex sites in an accurate and timely manner to keep your project moving.<br>
+      <a href="services.php#construction">LEARN MORE</a>
     </div>
   </div>
 </div>
@@ -61,7 +61,7 @@ include "header.php";
   <div class="one-third">
     <div class="title">DEVELOPMENT</div>
 
-    <img src="images/services-home-development.jpg" alt="">
+    <img src="images/services-development.jpg" alt="">
 
     <ul>
       <li>ALTA/NSPS Land Title Surveys</li>
@@ -102,7 +102,7 @@ include "header.php";
 
   <div class="forty-six last">
     <h3>FAA APPROVED UAS AERIAL PHOTOGRAPHY</h3>
-    Chaput Land Surveys can provide aerial photography for your project along with terrestrial remotes sensing and photogrammetry. We are authorized to fly up to 400 feet.
+    Chaput Land Surveys provides aerial photography, photogrammetric mapping and photogrammetry for your project as well as terrestrial remote sensing (laser scanning). We are authorized to fly up to 400 feet.
   </div>
 </div>
 
@@ -111,7 +111,7 @@ include "header.php";
 <div class="site-width">
   <div class="forty-six">
     <h3>COMPANY PROFILE</h3>
-    Chaput Land Surveys provides professional land surveying services throughout Wisconsin. With our sole focus on surveying, we are able to provide exceptional service with a timely completion. Chaput has a survey staff of 9-10 surveyors including 4 licensed land surveyors. On a daily basis we dispatch 4 survey crews operating as one and two person field crews equipped with the latest technology which includes robotic total stations and survey grade GPS (GNSS) receivers.<br>
+    Chaput Land Surveys provides professional land surveying services throughout Wisconsin. With our sole focus on surveying, we are able to provide exceptional service with a timely completion. Chaput's 4 Professional Land Surveyors are supported by 4 or more field crews and a staff of 10. On a daily basis the field crews are dispatched as one and two person teams with robotic total stations and survey grade GPS(GNSS) receivers. We incorporate into our processes the latest surveying technologies such as unmanned aerial systems, terrestrial lidar scanning and photogrammetry.<br>
     <br>
     <a href="company.php">OUR COMPANY</a>
   </div>
