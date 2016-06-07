@@ -1,7 +1,7 @@
 <?php
 $PageTitle = "";
-$Description = "";
-$Keywords = "";
+$Description = "As Professional Land Surveyors Chaput helps you identify risks associated with property prior to purchase which is central to your real estate transaction and protecting your investment.";
+$Keywords = "chaput, chaput land surveys, land surveys, land survey, land survey company, where to get a land survey, real estate due diligence, construction layout, construction site surveys, FAA approved UAS aerial photography, ALTA land title surveys, NSPS land title surveys, flood hazard surveys, concept development, topographic surveys";
 
 include "header.php";
 ?>

@@ -1,7 +1,7 @@
 <?php
 $PageTitle = "Company";
-$Description = "";
-$Keywords = "";
+$Description = "At Chaput Land Surveys clients are our first priority, we are driven to helping you be successful.";
+$Keywords = "chaput, chaput land surveys, land surveys, land survey, land survey company, where to get a land survey, real estate due diligence, construction layout, construction site surveys, FAA approved UAS aerial photography, ALTA land title surveys, NSPS land title surveys, flood hazard surveys, concept development, topographic surveys, Wisconsin Society of Land Surveyors certification, National Society of Professional Surveyors certification, Southeast Chapter of WSLS certification";
 
 include "header.php";
 ?>

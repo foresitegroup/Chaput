@@ -1,7 +1,7 @@
 <?php
 $PageTitle = "Projects";
-$Description = "";
-$Keywords = "";
+$Description = "Chaput Land Surveys' project experience includes large design and development undertakings to major commercial and industrial projects.";
+$Keywords = "chaput, chaput land surveys, land surveys, land survey, land survey company, where to get a land survey, real estate due diligence, construction layout, construction site surveys, FAA approved UAS aerial photography, ALTA land title surveys, NSPS land title surveys, flood hazard surveys, concept development, topographic surveys";
 
 include "header.php";
 ?>

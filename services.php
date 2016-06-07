@@ -1,7 +1,7 @@
 <?php
 $PageTitle = "Services";
-$Description = "";
-$Keywords = "";
+$Description = "Chaput Land Surveys offers a wide range of professional land survey services throughout Wisconsin. Whether it's single site improvement, multiple site acquisition, land development or construction, we will help you be successful in your real estate matters.";
+$Keywords = "services, chaput services, chaput, chaput land surveys, land surveys, land survey, land survey company, where to get a land survey, real estate due diligence, construction layout, construction site surveys, FAA approved UAS aerial photography, ALTA land title surveys, NSPS land title surveys, flood hazard surveys, concept development, topographic surveys";
 
 include "header.php";
 ?>

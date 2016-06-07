@@ -1,7 +1,7 @@
 <?php
 $PageTitle = "Contact";
-$Description = "";
-$Keywords = "";
+$Description = "We are available to answer any surveying questions you may have. Please fill out our form to request a survey or contact us directly.";
+$Keywords = "contact us, contact chaput, request a survey, chaput, chaput land surveys, land surveys, land survey, land survey company, where to get a land survey, real estate due diligence, construction layout, construction site surveys, FAA approved UAS aerial photography, ALTA land title surveys, NSPS land title surveys, flood hazard surveys, concept development, topographic surveys";
 
 $FooterForm = "no";
 

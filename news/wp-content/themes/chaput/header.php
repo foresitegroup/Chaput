@@ -14,8 +14,8 @@ $TopDir = substr( home_url(), 0, strrpos( home_url(), '/')+1);
 if ( !is_single() ) :
   $HeaderClass = "blog-index";
   $PageTitle = "Industry News";
-  $Description = "";
-  $Keywords = "";
+  $Description = "Stay up to date with what’s going on in the Land Survey industry!";
+  $Keywords = "news, land survey news, land survey industry news, industrial industry news, chaput, chaput land surveys, land surveys, land survey, land survey company, where to get a land survey, real estate due diligence, construction layout, construction site surveys, FAA approved UAS aerial photography, ALTA land title surveys, NSPS land title surveys, flood hazard surveys, concept development, topographic surveys";
 else :
   $HeaderClass = "blog-single";
   $HeaderBackground = wp_get_attachment_url(get_post_thumbnail_id());
