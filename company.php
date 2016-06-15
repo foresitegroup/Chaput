@@ -10,7 +10,7 @@ include "header.php";
   <div class="site-width">
     <h2>CHAPUT COMPANY PROFILE</h2>
 
-    At Chaput Land Surveys clients are our first priority, we are driven to helping you be successful. We believe a Land Survey is essential in determining land value, assessing risk and protecting your real estate investment. As such, we provide professional land surveying services throughout Wisconsin. With our sole focus on surveying, we are able to provide exceptional service with a timely completion whether your project is single site improvement, multiple site acquisition, land development or construction. We bring extensive experience, practical judgment and technical expertise to deliver thorough, cost effective and relevant survey solutions for your real estate assets.<br>
+    At Chaput Land Surveys, clients are our first priority. We are driven to helping you be successful. We believe a Land Survey is essential in determining land value, assessing risk and protecting your real estate investment. As such, we provide professional land surveying services throughout Wisconsin. With our sole focus on surveying, we are able to provide exceptional service with a timely completion whether your project is single site improvement, multiple site acquisition, land development or construction. We bring extensive experience, practical judgment and technical expertise to deliver thorough, cost effective and relevant survey solutions for your real estate assets.<br>
     <br>
 
     Our multiple survey crews operate as one and two person field crews equipped with the latest technology which includes robotic total stations, survey grade GPS (GNSS) receivers, remote sensing and photogrammetric equipment.

@@ -8,7 +8,7 @@ include "header.php";
 
 <script type="text/javascript" src="inc/jquery.cycle2.min.js"></script>
 <script type="text/javascript" src="inc/jquery.cycle2.scrollVert.min.js"></script>
-<div class="cycle-slideshow" data-cycle-slides="> div" data-cycle-timeout="5000" data-cycle-pause-on-hover="true" data-cycle-fx="scrollVert" data-cycle-pager-template="<span></span>">
+<div class="cycle-slideshow" data-cycle-slides="> div" data-cycle-timeout="8000" data-cycle-pause-on-hover="true" data-cycle-fx="scrollVert" data-cycle-pager-template="<span></span>">
   <p class="cycle-pager"></p>
   <div style="background-image: url(images/home-slide3.jpg);">
     <div class="site-width">
@@ -35,7 +35,7 @@ include "header.php";
 
 <div class="header-banner">
   <div class="site-width">
-    Chaput Land Surveys offers a wide range of professional land survey services throughout Wisconsin. Whether it's single site improvement, multiple site acquisition, land development or construction, we will help you be successful in your real estate matters.
+    Chaput Land Surveys offers a wide range of professional land survey services throughout Wisconsin. Whether it's single site improvement, multiple site acquisition, land development or construction, we will help you succeed in your real estate matters.
   </div>
 </div>
 

@@ -56,7 +56,7 @@ include "header.php";
 
 <div class="site-width projects">
   <h2>MEQUON TOWN CENTER</h2>
-  <strong>MEQUON, WI -</strong> Mequon Town Center at the intersection of Mequon Road and Cedarburg Road is a multi purpose development of apartments, shops and restaurants. Chaput Land Surveys provided construction surveying services for this project. This project's challenges included a tight work site with many different construction trades working on different aspects of this project during the same time period. Our staff laid out the building locations for the contractor, including the building corners, columns and the elevator shaft. We laid out the sanitary sewer, watermain and storm sewer systems and the curb, parking lot and sidewalk.<br>
+  <strong>MEQUON, WI -</strong> Mequon Town Center at the intersection of Mequon Road and Cedarburg Road is a multi-purpose development of apartments, shops and restaurants. Chaput Land Surveys provided construction surveying services for this project. This project's challenges included a tight work site with many different construction trades working on different aspects of this project during the same time period. Our staff laid out the building locations for the contractor, including the building corners, columns and the elevator shaft. We laid out the sanitary sewer, watermain and storm sewer systems and the curb, parking lot and sidewalk.<br>
   <br>
 
   <div class="one-half">

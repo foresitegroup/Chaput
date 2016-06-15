@@ -388,7 +388,7 @@ A#return-to-top:active {
 
 .cls-header UL LI {
   float: left;
-  padding-left: 4em;
+  padding-left: 6em;
   position: relative;
   z-index: 99;
 }
@@ -430,7 +430,11 @@ A#return-to-top:active {
   display: block;
   position: absolute;
   top: 121px;
-  left: 1em;
+  left: 5em;
+}
+
+.cls-header UL LI:first-child:hover UL {
+  left: -1em;
 }
 
 .cls-header.sticky UL LI:hover UL {
@@ -1164,6 +1168,10 @@ A.shadow-button:active {
     width: auto;
   }
 
+  .cls-header UL LI {
+    padding-left: 3.5em;
+  }
+
   .cls-header UL LI A:link, .cls-header UL LI A:visited {
     height: 75px;
     line-height: 75px;
@@ -1171,7 +1179,11 @@ A.shadow-button:active {
 
   .cls-header UL LI:hover UL {
     top: 75px;
-    left: 0.5em;
+    left: 2.5em;
+  }
+
+  .cls-header UL LI:first-child:hover UL {
+    left: -1em;
   }
 
   .news-home-left-content {
