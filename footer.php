@@ -119,7 +119,10 @@
   </div>
 
   <div class="cls-footer">
-    <img src="<?php echo $TopDir; ?>images/footer-logo.png" alt="Chaput Land Surveys"><br>
+    <div class="social">
+      <a href="https://www.instagram.com/chaput_land_Surveys"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+      <a href="https://www.linkedin.com/company/10826666"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+    </div>
 
     <span>&copy; <?php echo date("Y"); ?> Chaput Land Surveys, LLC.</span> 234 W. Florida Street, Milwaukee, WI 53204
   </div>

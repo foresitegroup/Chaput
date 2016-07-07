@@ -763,8 +763,25 @@ A#return-to-top:active {
   padding: 3.5em 0 1.5em;
 }
 
-.cls-footer IMG {
+.cls-footer .social {
   margin-bottom: 3.4em;
+}
+
+.cls-footer .social A:link, .cls-footer .social A:visited {
+  background: #470707;
+  color: #FFFFFF;
+  line-height: 1em;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  padding: 0.5em;
+  border-radius: 50%;
+  margin: 0 0.15em;
+}
+
+.cls-footer .social A:hover, .cls-footer .social A:active {
+  background: #333333;
 }
 
 .home-services {
