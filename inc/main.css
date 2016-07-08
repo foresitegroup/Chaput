@@ -1469,7 +1469,7 @@ A.shadow-button:active {
   .cls-header .menu-right {
     display: none;
     position: absolute;
-    top: 169px;
+    top: 100%;
     left: 0;
     z-index: 999;
   }
