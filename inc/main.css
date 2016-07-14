@@ -931,6 +931,13 @@ A.shadow-button:active {
   margin: 3em 0 0;
 }
 
+.blog-index.clients,
+.blog-single.clients {
+  height: 200px;
+  font-size: 300%;
+  margin-bottom: 2em;
+}
+
 .blog-index .site-width,
 .blog-single .site-width {
   position: relative;
@@ -969,6 +976,10 @@ A.shadow-button:active {
   padding-top: 4.5em;
   text-align: left;
   font-size: 16px;
+}
+
+.entry-content.client-single {
+  text-align: left;
 }
 
 .entry-content A.readmore:link,
@@ -1021,6 +1032,109 @@ A.shadow-button:active {
 
 .entry-content .video {
   margin: 4em 0;
+}
+
+.gallery:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.gallery BR {
+  display: none;
+}
+
+.gallery-item {
+  float: left;
+  width: 100%;
+}
+
+.gallery-columns-2 .gallery-item {
+  width: 49%;
+  margin: 0 2% 2% 0;
+}
+
+.gallery-columns-3 .gallery-item {
+  width: 31.33%;
+  margin: 0 3% 1.5% 0;
+}
+
+.gallery-columns-4 .gallery-item {
+  width: 23.5%;
+  margin: 0 2% 2% 0;
+}
+
+.gallery-columns-5 .gallery-item {
+  width: 19.2%;
+  margin: 0 1% 1% 0;
+}
+
+.gallery-columns-6 .gallery-item {
+  width: 15.83%;
+  margin: 0 1% 1% 0;
+}
+
+.gallery-columns-7 .gallery-item {
+  width: 13.42%;
+  margin: 0 1% 1% 0;
+}
+
+.gallery-columns-8 .gallery-item {
+  width: 11.625%;
+  margin: 0 1% 1% 0;
+}
+
+.gallery-columns-9 .gallery-item {
+  width: 10.22%;
+  margin: 0 1% 1% 0;
+}
+
+.gallery-columns-2 .gallery-item:nth-of-type(2n+0),
+.gallery-columns-3 .gallery-item:nth-of-type(3n+0),
+.gallery-columns-4 .gallery-item:nth-of-type(4n+0),
+.gallery-columns-5 .gallery-item:nth-of-type(5n+0),
+.gallery-columns-6 .gallery-item:nth-of-type(6n+0),
+.gallery-columns-7 .gallery-item:nth-of-type(7n+0),
+.gallery-columns-8 .gallery-item:nth-of-type(8n+0),
+.gallery-columns-9 .gallery-item:nth-of-type(9n+0) {
+  margin-right: 0;
+}
+
+.gallery-item A {
+  display: block;
+  position: relative;
+  padding-bottom: 66.5%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.gallery-item A IMG {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: auto;
+  transform: translateY(-50%);
+}
+
+.client-single A[href$=".pdf"]:before,
+.client-single A[href$=".doc"]:before,
+.client-single A[href$=".docx"]:before,
+.client-single A[href$=".txt"]:before {
+  font-family: FontAwesome;
+  content: "\f1c1"; /* PDF */
+  display: inline-block;
+  padding-right: 0.3em;
+}
+
+.client-single A[href$=".doc"]:before,
+.client-single A[href$=".docx"]:before {
+  content: "\f1c2";
+}
+
+.client-single A[href$=".txt"]:before {
+  content: "\f0f6";
 }
 
 .services .service-header.one-half {

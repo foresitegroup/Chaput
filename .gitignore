@@ -5,3 +5,10 @@ news/wp-content/*
 news/wp-content/themes/*
 !news/wp-content/themes/chaput
 news/wp-content/themes/chaput/.DS_Store
+clients/*
+!clients/wp-content/
+clients/wp-content/*
+!clients/wp-content/themes/
+clients/wp-content/themes/*
+!clients/wp-content/themes/chaput
+clients/wp-content/themes/chaput/.DS_Store
