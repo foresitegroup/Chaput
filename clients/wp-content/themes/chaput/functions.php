@@ -66,7 +66,7 @@ wp_register_script('jquery', '', '', '', true);
 // Adds gallery shortcode default of size="full"
 function my_gallery_atts( $out, $pairs, $atts ) {
   $atts = shortcode_atts( array(
-    'size' => 'full',
+    'size' => 'large',
   ), $atts );
 
   $out['size'] = $atts['size'];
