@@ -10,7 +10,7 @@ if ($_POST['confirmationCAP'] == "") {
      )
   {
     $Subject = "Survey Request";
-    $SendTo = "patmccurdymusic@gmail.com";
+    $SendTo = "don@chaputlandsurveys.com,al@chaputlandsurveys.com,dan@chaputlandsurveys.com,greg@chaputlandsurveys.com";
     $Headers = "Bcc: mark@foresitegrp.com\r\n";
     $Headers .= "From: Contact Form <surveyform@chaputlandsurveys.com>\r\n";
     $Headers .= "Reply-To: " . $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] . "\r\n";
