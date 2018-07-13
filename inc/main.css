@@ -786,13 +786,18 @@ A#return-to-top:active {
 
 .home-services {
   padding: 5em 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
+
+.home-service { width: 31%; margin-bottom: 2em; }
 
 .home-services .title {
   display: table-cell;
   vertical-align: bottom;
   height: 2em;
-  font-size: 237.5%;
+  font-size: 218%;
   font-weight: 900;
   line-height: 1em;
   color: #3E0606;
@@ -816,9 +821,7 @@ A#return-to-top:active {
 }
 
 .home-services .button {
-  clear: both;
-  text-align: center;
-  padding-top: 4em;
+  margin: 2em auto 0;
 }
 
 A.shadow-button:link,
@@ -1278,6 +1281,12 @@ A.shadow-button:active {
   }
 }
 
+@media only screen and (max-width: 1015px) {
+  .site-width { width: 96%; }
+
+  .home-services .title { font-size: 3.25vw; }
+}
+
 @media only screen and (max-width: 800px) {
   /* Small computer or landscape tablet */
   A#return-to-top:link,
@@ -1335,10 +1344,6 @@ A.shadow-button:active {
     line-height: 1.1em;
   }
 
-  .home-services .title {
-    font-size: 185%;
-  }
-
   .one-half H2 {
     font-size: 270%;
   }
@@ -1361,8 +1366,9 @@ A.shadow-button:active {
   }
 }
 
-@media only screen and (max-width: 768px) {
-  /* Tablet */
+@media only screen and (max-width: 700px) {
+  .home-service { width: 46%; }
+  .home-services .title { font-size: 4.7vw; }
 }
 
 @media only screen and (max-width: 600px) {
@@ -1402,6 +1408,9 @@ A.shadow-button:active {
   .cycle-slideshow .site-width {
     width: 94%;
   }
+
+  .home-service { width: 100%; }
+  .home-services .title { font-size: 6vw; }
   
   .news-home {
     display: block;
@@ -1478,10 +1487,6 @@ A.shadow-button:active {
 
   .forty-six H3 {
     font-size: 265%;
-  }
-
-  .home-services .title {
-    font-size: 237.5%;
   }
 
   .services .one-half {

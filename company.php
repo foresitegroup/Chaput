@@ -31,7 +31,11 @@ include "header.php";
   <br>
 
   <strong>Gregory R. Boyle</strong>, PLS, Project Surveyor has more than 26 years of surveying experience in the field and office of private and public sector projects, relating to property acquisition to construction. Greg oversees the drafting standards and data management of the office and works closely with contractors for construction layout. Greg is licensed in Wisconsin and is a member of professional organizations; Wisconsin Society of Land Surveyors and National Society of Professional Surveyors.<br>
-  <?php email("greg@chaputlandsurveys.com"); ?>
+  <?php email("greg@chaputlandsurveys.com"); ?><br>
+  <br>
+
+  <strong>Farhan Arshad</strong>, Project Surveyor has more than 10 years of surveying experience both domestically and internationally. Farhan oversees hydrographic projects. He has conducted hydrographic survey work for one of the biggest oil and gas and dredging companies like ADNOC, Saudi Aramco, Van Oord, Boskalis, NMDC. Farhan is also experienced in property surveying, UAV Drone Mapping and terrestrial LIDAR Surveying. Farhan holds a bachelor's of science degree in geography, computers.<br>
+  <?php email("farhan@chaputlandsurveys.com"); ?>
 </div>
 
 <hr>

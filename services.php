@@ -44,6 +44,8 @@ include "header.php";
       <li>Easement Legal Descriptions &amp; Exhibits</li>
       <li>Hydrographic Surveys</li>
       <li>Right of Way Surveys</li>
+      <li>Asset mapping</li>
+      <li>Facade high definition laser scanning</li>
     </ul>
   </div>
 
@@ -91,6 +93,62 @@ include "header.php";
       <li>As-Built Surveys</li>
       <li>Easement Legal</li>
       <li>Descriptions &amp; Exhibits</li>
+    </ul>
+  </div>
+
+  <div style="clear: both;"></div>
+
+  <a class="anchor" id="uas"></a>
+  <div class="one-half">
+    <img src="images/services-uas.jpg" alt="">
+  </div>
+
+  <div class="one-half last">
+    <h2>UNMANNED AIRCRAFT SYSTEM</h2>
+
+    Chaput Land Surveys has an UAS (unmanned aircraft system) as well as a FAA Part 107 certified UAS pilot and the 333 exemption required in order to fly the UAS commercially. We have performed over 100 flights including efforts for site monitoring, site planning, site mapping and stock pile quantities.<br>
+    <br>
+
+    <ul>
+      <li>Construction Site Monitoring</li>
+      <li>Planimetric Mapping</li>
+      <li>Quantity Surveys</li>
+      <li>Asset Management</li>
+      <li>Power Line Inspection</li>
+      <li>Treatment Plant Inspection</li>
+      <li>Landfill Monitoring</li>
+      <li>Orthorectified Images</li>
+      <li>Site Fly-thru videos</li>
+      <li>Lake Mapping</li>
+      <li>Color Point Cloud Creation</li>
+      <li>DTM/DSM Mapping</li>
+      <li>Real Estate Images/Videos</li>
+      <li>Crash Scene Documentation</li>
+    </ul>
+  </div>
+
+  <div style="clear: both;"></div>
+
+  <a class="anchor" id="scanning"></a>
+  <div class="one-half">
+    <img src="images/services-scanning.jpg" alt="">
+  </div>
+
+  <div class="one-half last">
+    <h2>3D LASER SCANNING</h2>
+
+    Chaput Land Surveys has used High Definition Surveying (3D Laser Scanning) to provide clients highly detailed point clouds of buildings, structural members and homes for assessment. We are able to detail buildings and structures that traditional survey methods don't allow for the detail acquired.<br>
+    <br>
+
+    <ul>
+      <li>Building Movement Monitoring</li>
+      <li>Building As-built Models (interior/exterior)</li>
+      <li>Historic facade models</li>
+      <li>Construction monitoring/documentation</li>
+      <li>Crane Modeling</li>
+      <li>3D Point Cloud Modeling</li>
+      <li>Plant Floor Modeling</li>
+      <li>Quarry Wall Modeling</li>
     </ul>
   </div>
 

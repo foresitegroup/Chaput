@@ -15,7 +15,7 @@
   <?php if ( !is_single() ) : ?>
 	<div class="entry-header site-width">
 		<?php the_title( '<h3 class="entry-title">', '</h3>' ); ?>
-		<h4><?php the_date(); ?></h4>
+		<!-- <h4><?php //the_date(); ?></h4> -->
 	</div><!-- .entry-header -->
 	<?php endif; ?>
 

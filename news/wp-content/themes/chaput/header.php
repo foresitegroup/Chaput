@@ -29,7 +29,7 @@ include "../header.php";
   <?php if ( is_single() && $HeaderBackground != "" ) : echo "<div class=\"overlay\">"; endif; ?>
 	<div class="site-width">
 		<?php echo $PageTitle; ?>
-		<?php if ( is_single() ) : echo "<h5>" . get_the_date() . "</h5>"; endif; ?>
+		<?php //if ( is_single() ) : echo "<h5>" . get_the_date() . "</h5>"; endif; ?>
 	</div>
   <?php if ( is_single() && $HeaderBackground != "" ) : echo "</div>"; endif; ?>
 </div>

@@ -10,6 +10,23 @@ include "header.php";
 <script type="text/javascript" src="inc/jquery.cycle2.scrollVert.min.js"></script>
 <div class="cycle-slideshow" data-cycle-slides="> div" data-cycle-timeout="8000" data-cycle-pause-on-hover="true" data-cycle-fx="scrollVert" data-cycle-pager-template="<span></span>">
   <p class="cycle-pager"></p>
+
+  <div style="background-image: url(images/home-slide-laser-scanning.jpg);">
+    <div class="site-width">
+      <h2>3D LASER SCANNING</h2>
+      Chaput's 3D laser scanning provides detailed site point clouds used for structural analysis, building movement and BIM modeling.<br>
+      <a href="services.php#scanning">LEARN MORE</a>
+    </div>
+  </div>
+
+  <div style="background-image: url(images/home-slide-sat-uas.jpg);">
+    <div class="site-width">
+      <h2>UNMANNED AIRCRAFT SYSTEM</h2>
+      Chaput uses advanced GNSS (Satellites) and Photogrammetry (Unmanned Aerial Systems) tools to provide the most accurate and comprehensive surveys possible.<br>
+      <a href="services.php#scanning">LEARN MORE</a>
+    </div>
+  </div>
+
   <div style="background-image: url(images/home-slide3.jpg);">
     <div class="site-width">
       <h2>REAL ESTATE DUE DILIGENCE</h2>
@@ -40,7 +57,7 @@ include "header.php";
 </div>
 
 <div class="home-services site-width">
-  <div class="one-third">
+  <div class="home-service">
     <div class="title">REAL ESTATE DUE DILIGENCE</div>
 
     <img src="images/services-real-estate.jpg" alt="">
@@ -55,10 +72,12 @@ include "header.php";
       <li>Easement Legal Descriptions &amp; Exhibits</li>
       <li>Hydrographic Surveys</li>
       <li>Right of Way Surveys</li>
+      <li>Asset mapping</li>
+      <li>Facade high definition laser scanning</li>
     </ul>
   </div>
 
-  <div class="one-third">
+  <div class="home-service">
     <div class="title">DEVELOPMENT</div>
 
     <img src="images/services-development.jpg" alt="">
@@ -74,7 +93,7 @@ include "header.php";
     </ul>
   </div>
 
-  <div class="one-third last">
+  <div class="home-service">
     <div class="title">CONSTRUCTION</div>
 
     <img src="images/services-construction.jpg" alt="">
@@ -88,21 +107,66 @@ include "header.php";
     </ul>
   </div>
 
+  <div class="home-service">
+    <div class="title">UNMANNED AIRCRAFT SYSTEM</div>
+
+    <img src="images/services-uas.jpg" alt="">
+
+    <ul>
+      <li>Construction Site Monitoring</li>
+      <li>Planimetric Mapping</li>
+      <li>Quantity Surveys</li>
+      <li>Asset Management</li>
+      <li>Power Line Inspection</li>
+      <li>Treatment Plant Inspection</li>
+      <li>Landfill Monitoring</li>
+      <li>Orthorectified Images</li>
+      <li>Site Fly-thru videos</li>
+      <li>Lake Mapping</li>
+      <li>Color Point Cloud Creation</li>
+      <li>DTM/DSM Mapping</li>
+      <li>Real Estate Images/Videos</li>
+      <li>Crash Scene Documentation</li>
+    </ul>
+  </div>
+
+  <div class="home-service">
+    <div class="title">3D LASER SCANNING</div>
+
+    <img src="images/services-scanning.jpg" alt="">
+
+    <ul>
+      <li>Building Movement Monitoring</li>
+      <li>Building As-built Models (interior/exterior)</li>
+      <li>Historic facade models</li>
+      <li>Construction monitoring/documentation</li>
+      <li>Crane Modeling</li>
+      <li>3D Point Cloud Modeling</li>
+      <li>Plant Floor Modeling</li>
+      <li>Quarry Wall Modeling</li>
+    </ul>
+  </div>
+
+  <div class="home-service">
+    <div class="title">OTHER AREAS OF SERVICE</div>
+
+    <img src="images/services-other.jpg" alt="">
+
+    <ul>
+      <li>FAA Approved UAS (Unmanned Aerial System) - Aerial Photography</li>
+      <li>Municipal</li>
+      <li>Retail</li>
+      <li>Education</li>
+      <li>Healthcare</li>
+      <li>Industrial</li>
+      <li>Hydrographic Surveys</li>
+      <li>Remote Sensing</li>
+      <li>Photogrammetry</li>
+    </ul>
+  </div>
+
   <div class="button">
     <a href="services.php" class="shadow-button">ABOUT OUR SERVICES</a>
-  </div>
-</div>
-
-<hr>
-
-<div class="site-width">
-  <div class="fifty-four">
-    <img src="images/uav-aerial-photography.jpg" alt="">
-  </div>
-
-  <div class="forty-six last">
-    <h3>FAA APPROVED UAS AERIAL PHOTOGRAPHY</h3>
-    Chaput Land Surveys provides aerial photography, photogrammetric mapping and photogrammetry for your project as well as terrestrial remote sensing (laser scanning). We are authorized to fly up to 400 feet.
   </div>
 </div>
 
