@@ -40,6 +40,8 @@ include "header.php";
   </div>
 </div>
 
+<?php include_once "inc/fintoozler.php"; ?>
+
 <div class="survey-wrap">
   <div class="site-width content survey">
     <script type="text/javascript">
@@ -84,12 +86,7 @@ include "header.php";
         });
       });
     </script>
-    <?php
-    // Settings for randomizing form field names
-    $ip = $_SERVER['REMOTE_ADDR'];
-    $timestamp = time();
-    $salt = "ForesiteGroupChaputLandSurveys-surveyform";
-    ?>
+
     <noscript>
     <?php
     $feedback = (!empty($_SESSION['feedback'])) ? $_SESSION['feedback'] : "";
@@ -101,45 +98,41 @@ include "header.php";
     <form action="form-survey.php" method="POST" id="survey-form">
       <div>
         <div class="one-half">
-          <input type="text" name="<?php echo md5("companyname" . $ip . $salt . $timestamp); ?>" id="companyname" placeholder="* Company Name">
+          <input type="text" name="companyname" id="companyname" placeholder="* Company Name">
         </div>
 
         <div class="one-half last">
-          <input type="text" name="<?php echo md5("orderedby" . $ip . $salt . $timestamp); ?>" id="orderedby" placeholder="Ordered By">
+          <input type="text" name="orderedby" id="orderedby" placeholder="Ordered By">
         </div>
 
         <div style="clear: both;"></div>
 
         <div class="one-half">
-          <input type="text" name="<?php echo md5("companyaddress" . $ip . $salt . $timestamp); ?>" id="companyaddress" placeholder="Company Address">
+          <input type="text" name="companyaddress" id="companyaddress" placeholder="Company Address">
         </div>
 
         <div class="one-half last">
-          <input type="text" name="<?php echo md5("citystatezip" . $ip . $salt . $timestamp); ?>" id="citystatezip" placeholder="City, State, Zip">
+          <input type="text" name="citystatezip" id="citystatezip" placeholder="City, State, Zip">
         </div>
 
         <div style="clear: both;"></div>
 
         <div class="one-half">
-          <input type="email" name="<?php echo md5("email" . $ip . $salt . $timestamp); ?>" id="email" placeholder="* Email Address">
+          <input type="email" name="email" id="email" placeholder="* Email Address">
         </div>
 
         <div class="one-half last">
-          <input type="text" name="<?php echo md5("propertyaddress" . $ip . $salt . $timestamp); ?>" id="propertyaddress" placeholder="Property Address, City">
+          <input type="text" name="=propertyaddress" id="propertyaddress" placeholder="Property Address, City">
         </div>
 
         <div style="clear: both;"></div>
 
-        <textarea name="<?php echo md5("questionscomments" . $ip . $salt . $timestamp); ?>" id="questionscomments" placeholder="Questions/Comments"></textarea>
+        <textarea name="questionscomments" id="questionscomments" placeholder="Questions/Comments"></textarea>
 
         <input type="hidden" name="referrer" value="contact.php">
 
-        <input type="text" name="confirmationCAP" style="display: none;"> <?php // Non-displaying field as a sort of invisible CAPTCHA. ?>
-
-        <input type="hidden" name="ip" value="<?php echo $ip; ?>">
-        <input type="hidden" name="timestamp" value="<?php echo $timestamp; ?>">
-
         <div class="centered">
+          <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
           <input type="submit" name="submit" value="SEND MESSAGE">
         </div>
 
@@ -148,5 +141,14 @@ include "header.php";
     </form>
   </div>
 </div>
+
+<script src="https://www.google.com/recaptcha/api.js?render=<?php echo RECAPTCHA_SITE_KEY; ?>"></script>
+<script>
+  grecaptcha.ready(function() {
+    grecaptcha.execute('<?php echo RECAPTCHA_SITE_KEY; ?>', {action: 'contact_form'}).then(function(token) {
+      document.getElementById('g-recaptcha-response').value=token;
+    });
+  });
+</script>
 
 <?php include "footer.php"; ?>

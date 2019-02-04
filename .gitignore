@@ -12,3 +12,4 @@ clients/wp-content/*
 clients/wp-content/themes/*
 !clients/wp-content/themes/chaput
 clients/wp-content/themes/chaput/.DS_Store
+inc/fintoozler.php
