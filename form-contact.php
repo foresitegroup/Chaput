@@ -12,7 +12,7 @@ class Captcha{
 }
 
 $ObjCaptcha = new Captcha();
-$Retorno = $ObjCaptcha->getCaptcha($_POST['g-recaptcha-response']);
+$Retorno = $ObjCaptcha->getCaptcha($_POST['g-recaptcha-response-f']);
 if($Retorno->success){
   if (
       $_POST['name'] != "" && $_POST['email'] != "" &&
@@ -21,9 +21,9 @@ if($Retorno->success){
   {
     $Subject = $_POST['subject'];
     $SendTo = "don@chaputlandsurveys.com,al@chaputlandsurveys.com,dan@chaputlandsurveys.com,greg@chaputlandsurveys.com";
-    $Headers = "Bcc: mark@foresitegrp.com\r\n";
-    $Headers .= "From: Contact Form <contactform@chaputlandsurveys.com>\r\n";
+    $Headers = "From: Contact Form <contactform@chaputlandsurveys.com>\r\n";
     $Headers .= "Reply-To: " . $_POST['email'] . "\r\n";
+    $Headers .= "Bcc: mark@foresitegrp.com\r\n";
 
     $Message = "Message from " . $_POST['name'] . " (" . $_POST['email'] . ")";
 

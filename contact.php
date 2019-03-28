@@ -21,24 +21,24 @@ include "header.php";
   234 W. Florida Street <span>&bull;</span> Milwaukee, WI 53204
 </div>
 
-<hr class="survey-hr">
+<!-- <hr class="survey-hr">
 
 <div class="site-width content survey-emails">
   <div class="one-third">
     <strong>Donald C. Chaput</strong>, PLS<br>
-    <?php email("don@chaputlandsurveys.com"); ?>
+    <?php //email("don@chaputlandsurveys.com"); ?>
   </div>
 
   <div class="one-third">
     <strong>Allen J. Schneider</strong>, PLS<br>
-    <?php email("al@chaputlandsurveys.com"); ?>
+    <?php //email("al@chaputlandsurveys.com"); ?>
   </div>
 
   <div class="one-third last">
     <strong>Daniel E. Bednar</strong>, PLS<br>
-    <?php email("dan@chaputlandsurveys.com"); ?>
+    <?php //email("dan@chaputlandsurveys.com"); ?>
   </div>
-</div>
+</div> -->
 
 <?php include_once "inc/fintoozler.php"; ?>
 
@@ -128,6 +128,8 @@ include "header.php";
         <div style="clear: both;"></div>
 
         <textarea name="questionscomments" id="questionscomments" placeholder="Questions/Comments"></textarea>
+
+        <div class="recaptcha-notice">This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy">Privacy Policy</a> and <a href="https://policies.google.com/terms">Terms of Service</a> apply.</div>
 
         <input type="hidden" name="referrer" value="contact.php">
 

@@ -1,4 +1,5 @@
   <?php if ($FooterForm != "no") { ?>
+  <?php include_once "inc/fintoozler.php"; ?>
   <div class="footer-contact">
     <div class="site-width">
       <div class="col1">
@@ -65,12 +66,6 @@
           });
         </script>
 
-        <?php
-        // Settings for randomizing form field names
-        $ip = $_SERVER['REMOTE_ADDR'];
-        $timestamp = time();
-        $salt = "ForesiteGroupChaputLandSurveys";
-        ?>
         <noscript>
         <?php
         $feedback = (!empty($_SESSION['feedback'])) ? $_SESSION['feedback'] : "";
@@ -81,37 +76,43 @@
         <div class="required">* Required</div>
         <form action="<?php echo $TopDir; ?>form-contact.php" method="POST" id="contact-form">
           <div>
-            <input type="text" name="<?php echo md5("name" . $ip . $salt . $timestamp); ?>" id="name" placeholder="* First &amp; Last Name">
+            <input type="text" name="name" id="name" placeholder="* First &amp; Last Name">
 
             <div class="one-half">
-              <input type="text" name="<?php echo md5("phone" . $ip . $salt . $timestamp); ?>" id="phone" placeholder="Phone Number" data-mask="000-000-0000">
+              <input type="text" name="phone" id="phone" placeholder="Phone Number" data-mask="000-000-0000">
             </div>
 
             <div class="one-half last">
-              <input type="email" name="<?php echo md5("email" . $ip . $salt . $timestamp); ?>" id="email" placeholder="* Email Address">
+              <input type="email" name="email" id="email" placeholder="* Email Address">
             </div>
 
             <div style="clear: both;"></div>
 
-            <input type="text" name="<?php echo md5("subject" . $ip . $salt . $timestamp); ?>" id="subject" placeholder="* Subject">
+            <input type="text" name="subject" id="subject" placeholder="* Subject">
 
-            <textarea name="<?php echo md5("message" . $ip . $salt . $timestamp); ?>" id="message" placeholder="* Message"></textarea>
+            <textarea name="message" id="message" placeholder="* Message"></textarea>
 
             <input type="hidden" name="referrer" value="<?php echo $_SERVER['REQUEST_URI']; ?>">
-
-            <input type="text" name="confirmationCAP" style="display: none;"> <?php // Non-displaying field as a sort of invisible CAPTCHA. ?>
-
-            <input type="hidden" name="ip" value="<?php echo $ip; ?>">
-            <input type="hidden" name="timestamp" value="<?php echo $timestamp; ?>">
-
+            
+            <input type="hidden" id="g-recaptcha-response-f" name="g-recaptcha-response-f">
             <input type="submit" name="submit" value="SEND MESSAGE">
 
             <div id="contact-form-messages"><?php echo $feedback; ?></div>
           </div>
         </form>
+        <div class="recaptcha-notice">This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy">Privacy Policy</a> and <a href="https://policies.google.com/terms">Terms of Service</a> apply.</div>
       </div>
     </div>
   </div>
+
+  <script src="https://www.google.com/recaptcha/api.js?render=<?php echo RECAPTCHA_SITE_KEY; ?>"></script>
+  <script>
+    grecaptcha.ready(function() {
+      grecaptcha.execute('<?php echo RECAPTCHA_SITE_KEY; ?>', {action: 'footer_form'}).then(function(token) {
+        document.getElementById('g-recaptcha-response-f').value=token;
+      });
+    });
+  </script>
   <?php } ?>
 
   <div class="footer-menu">

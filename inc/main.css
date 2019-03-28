@@ -1275,6 +1275,10 @@ A.shadow-button:active {
   background: #F1F2F2;
 }
 
+.grecaptcha-badge { display: none; }
+.recaptcha-notice { opacity: 0.3; padding-top: 2em; font-size: 10px; line-height: 1em; }
+#survey-form .recaptcha-notice { padding-top: 0; text-align: center; }
+
 @media only screen and (max-width: 1086px) {
   .cycle-pager {
     right: 0.5%;
