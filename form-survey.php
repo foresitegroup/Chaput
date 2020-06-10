@@ -3,17 +3,10 @@ session_start();
 
 include_once "inc/fintoozler.php";
 
-class Captcha{
-  public function getCaptcha($SecretKey){
-    $Resposta=file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".RECAPTCHA_SECRET_KEY."&response={$SecretKey}");
-    $Retorno=json_decode($Resposta);
-    return $Retorno;
-  }
-}
+$response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".RECAPTCHA_SECRET_KEY."&response=".$_POST['g-recaptcha-response']);
+$responsekeys = json_decode($response);
 
-$ObjCaptcha = new Captcha();
-$Retorno = $ObjCaptcha->getCaptcha($_POST['g-recaptcha-response']);
-if($Retorno->success){
+if ($responsekeys->success) {
   if ($_POST['companyname'] != "" && $_POST['email'] != "") {
     $Subject = "Survey Request";
     $SendTo = "don@chaputlandsurveys.com,al@chaputlandsurveys.com,dan@chaputlandsurveys.com,greg@chaputlandsurveys.com";

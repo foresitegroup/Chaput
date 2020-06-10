@@ -3,17 +3,10 @@ session_start();
 
 include_once "inc/fintoozler.php";
 
-class Captcha{
-  public function getCaptcha($SecretKey){
-    $Resposta=file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".RECAPTCHA_SECRET_KEY."&response={$SecretKey}");
-    $Retorno=json_decode($Resposta);
-    return $Retorno;
-  }
-}
+$response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".RECAPTCHA_SECRET_KEY."&response=".$_POST['g-recaptcha-response']);
+$responsekeys = json_decode($response);
 
-$ObjCaptcha = new Captcha();
-$Retorno = $ObjCaptcha->getCaptcha($_POST['g-recaptcha-response-f']);
-if($Retorno->success){
+if ($responsekeys->success) {
   if (
       $_POST['name'] != "" && $_POST['email'] != "" &&
       $_POST['subject'] != "" && $_POST['message'] != ""
@@ -35,7 +28,7 @@ if($Retorno->success){
   
     mail($SendTo, $Subject, $Message, $Headers);
     
-    $feedback = "<strong>Your message has been sent!</strong> Thank you for your interest. You will be contacted shortly.";
+    $feedback = "<strong>Your message has been sent!</strong><br>Thank you for your interest. You will be contacted shortly.";
   } else {
     $feedback = "<strong>Some required information is missing! Please go back and make sure all required fields are filled.</strong>";
   }

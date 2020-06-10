@@ -94,25 +94,18 @@
 
             <input type="hidden" name="referrer" value="<?php echo $_SERVER['REQUEST_URI']; ?>">
             
-            <input type="hidden" id="g-recaptcha-response-f" name="g-recaptcha-response-f">
+            <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITE_KEY; ?>"></div>
+
             <input type="submit" name="submit" value="SEND MESSAGE">
 
             <div id="contact-form-messages"><?php echo $feedback; ?></div>
           </div>
         </form>
-        <div class="recaptcha-notice">This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy">Privacy Policy</a> and <a href="https://policies.google.com/terms">Terms of Service</a> apply.</div>
       </div>
     </div>
   </div>
 
-  <script src="https://www.google.com/recaptcha/api.js?render=<?php echo RECAPTCHA_SITE_KEY; ?>"></script>
-  <script>
-    grecaptcha.ready(function() {
-      grecaptcha.execute('<?php echo RECAPTCHA_SITE_KEY; ?>', {action: 'footer_form'}).then(function(token) {
-        document.getElementById('g-recaptcha-response-f').value=token;
-      });
-    });
-  </script>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   <?php } ?>
 
   <div class="footer-menu">

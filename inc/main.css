@@ -700,11 +700,13 @@ A#return-to-top:active {
   position: relative;
 }
 
+#contact-form .g-recaptcha {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 1em 1em 0;
+}
+
 #contact-form-messages {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 60%;
   color: #720E1F;
   line-height: 1.3em;
 }

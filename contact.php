@@ -129,12 +129,10 @@ include "header.php";
 
         <textarea name="questionscomments" id="questionscomments" placeholder="Questions/Comments"></textarea>
 
-        <div class="recaptcha-notice">This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy">Privacy Policy</a> and <a href="https://policies.google.com/terms">Terms of Service</a> apply.</div>
-
         <input type="hidden" name="referrer" value="contact.php">
 
         <div class="centered">
-          <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
+          <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITE_KEY; ?>"></div>
           <input type="submit" name="submit" value="SEND MESSAGE">
         </div>
 
@@ -144,13 +142,6 @@ include "header.php";
   </div>
 </div>
 
-<script src="https://www.google.com/recaptcha/api.js?render=<?php echo RECAPTCHA_SITE_KEY; ?>"></script>
-<script>
-  grecaptcha.ready(function() {
-    grecaptcha.execute('<?php echo RECAPTCHA_SITE_KEY; ?>', {action: 'contact_form'}).then(function(token) {
-      document.getElementById('g-recaptcha-response').value=token;
-    });
-  });
-</script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 <?php include "footer.php"; ?>
