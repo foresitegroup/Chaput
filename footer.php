@@ -118,7 +118,8 @@
       <a href="https://www.linkedin.com/company/10826666"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
     </div>
 
-    <span>&copy; <?php echo date("Y"); ?> Chaput Land Surveys, LLC.</span> 234 W. Florida Street, Milwaukee, WI 53204
+    <span>&copy; <?php echo date("Y"); ?> Chaput Land Surveys, LLC.</span> 234 W. Florida Street, Milwaukee, WI 53204<br>
+    <a href="https://foresitegrp.com" style="font-size: 0.6875rem; color: #470707;">WEBSITE BY FORESITE</a>
   </div>
 
   </body>
