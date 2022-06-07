@@ -51,6 +51,15 @@ function email($address, $name="") {
         });
       });
     </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JLQ2HNSD4P"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-JLQ2HNSD4P');
+    </script>
   </head>
   <body>
   
