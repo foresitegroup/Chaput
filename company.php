@@ -19,23 +19,9 @@ include "header.php";
 
 <div class="site-width content">
   <strong>Donald C. Chaput</strong>, PLS, principal owner of Chaput Land Surveys has more than 40 years of surveying experience relating to property acquisition, land development, transportation and construction. Don has authored articles on ALTA/ACSM Land Title Surveys, spatial survey technology and construction layout risk avoidance. He has been a presenter at seminars to law firms and development firms on the subject of Land Title Surveys. Don is licensed in Wisconsin and Colorado (inactive) and is a member of the professional organizations; Wisconsin Society of Land Surveyors, National Society of Professional Surveyors, Southeast Chapter of WSLS and Society of Southeastern Wisconsin Land Surveyors.<br>
-  <!-- <?php //email("don@chaputlandsurveys.com"); ?><br> -->
   <br>
 
-  <strong>Allen J. Schneider</strong>, PLS, Senior Project Manager oversees daily operations including the site development and construction surveying market segment for Chaput.  Al has 30 years experience in all types of land surveying and civil engineering. Al is licensed in Wisconsin and Illinois and is a member of professional organizations; Wisconsin Society of Land Surveyors (Fellow and Past President), National Society of Professional Surveyors, Society of Southeastern Wisconsin Land Surveyors (Past President) and Foundation Board Director of the WSLS Foundation.<br>
-  <!-- <?php //email("al@chaputlandsurveys.com"); ?><br> -->
-  <br>
-
-  <strong>Daniel E. Bednar</strong>, PLS, Project Manager and IT has more than 14 years of surveying experience in the public and private sector relating to property acquisition, land development, planning, construction and GIS management of municipal maps of multiple governmental functions. Dan has also worked closely with developers on their residential projects from acquisition surveys to subdivision plats to house stake-out surveys. Dan is licensed in Wisconsin and is a member of professional organizations; Wisconsin Society of Land Surveyors, National Society of Professional Surveyors, Society of Southeastern Wisconsin Land Surveyors (Past President) and is a citizen member of the Village of Brown Deer Plan Commission.<br>
-  <!-- <?php //email("dan@chaputlandsurveys.com"); ?><br> -->
-  <br>
-
-  <strong>Gregory R. Boyle</strong>, PLS, Project Surveyor has more than 26 years of surveying experience in the field and office of private and public sector projects, relating to property acquisition to construction. Greg oversees the drafting standards and data management of the office and works closely with contractors for construction layout. Greg is licensed in Wisconsin and is a member of professional organizations; Wisconsin Society of Land Surveyors and National Society of Professional Surveyors.<br>
-  <!-- <?php //email("greg@chaputlandsurveys.com"); ?><br> -->
-  <br>
-
-  <strong>Farhan Arshad</strong>, Project Surveyor has more than 10 years of surveying experience both domestically and internationally. Farhan oversees hydrographic projects. He has conducted hydrographic survey work for one of the biggest oil and gas and dredging companies like ADNOC, Saudi Aramco, Van Oord, Boskalis, NMDC. Farhan is also experienced in property surveying, UAV Drone Mapping and terrestrial LIDAR Surveying. Farhan holds a bachelor's of science degree in geography, computers.<br>
-  <?php //email("farhan@chaputlandsurveys.com"); ?>
+  <strong>Allen J. Schneider</strong>, PLS, Senior Project Manager oversees daily operations including the site development and construction surveying market segment for Chaput.  Al has 30 years experience in all types of land surveying and civil engineering. Al is licensed in Wisconsin and Illinois and is a member of professional organizations; Wisconsin Society of Land Surveyors (Fellow and Past President), National Society of Professional Surveyors, Society of Southeastern Wisconsin Land Surveyors (Past President) and Foundation Board Director of the WSLS Foundation.
 </div>
 
 <hr>
