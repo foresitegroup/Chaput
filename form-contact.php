@@ -13,7 +13,7 @@ if ($responsekeys->success) {
      )
   {
     $Subject = $_POST['subject'];
-    $SendTo = "devin@chaputlandsurveys.com";
+    $SendTo = "devin@chaputlandsurveys.com,leia@chaputlandsurveys.com,curtis@chaputlandsurveys.com";
     $Headers = "From: Contact Form <contactform@chaputlandsurveys.com>\r\n";
     $Headers .= "Reply-To: " . $_POST['email'] . "\r\n";
     $Headers .= "Bcc: foresitegroupllc@gmail.com\r\n";
